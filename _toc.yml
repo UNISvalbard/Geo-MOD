@@ -1,0 +1,33 @@
+format: jb-book
+root: landing-page.md
+parts:
+- caption: Data mining
+  chapters:
+  - file: content/lessons/data_mining/data_mining.md
+  - file: content/lessons/svalbox_server/svalbox_server.md
+  - file: content/lessons/screen_recording/screen_recording.md
+
+- caption: GIS
+  chapters:
+  - file: content/lessons/gis/gis.md
+    sections:
+    - file: content/lessons/gis_exercise/gis_exercise.md
+  - file: content/lessons/story_maps/story_maps.md
+
+- caption: Structure-from-motion
+  chapters:
+  - url: https://unisvalbard.github.io/Geo-SfM/landing-page.html
+    title: Geo-SfM module
+
+- caption: Resources
+  chapters:
+  - file: content/lessons/about/seismic_lab.md
+
+- caption: Questionnaire
+  chapters:
+  - file: content/survey.md
+
+- caption: External Links
+  chapters:
+  - url: https://unisvalbard.github.io/exbooks/
+    title: UNIS Compendium Portal
