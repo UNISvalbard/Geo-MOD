@@ -1,10 +1,10 @@
-title: "AG 222 Compendium"
+title: "Geo-MOD"
 logo: ./content/assets/UNIS_logo.gif
-author: Nil Rodes, Peter Betlem, Kim Senger
+author: Peter Betlem, Nil Rodes, Sara M. Cohen
 copyright: "2022 (CC-BY-NC except where otherwise stated)"
 
 repository:
-  url: https://github.com/UNISvalbard/AG222
+  url: https://github.com/UNISvalbard/Geo-MOD
 
 html:
   use_issues_button: true

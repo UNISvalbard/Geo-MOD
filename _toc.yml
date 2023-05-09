@@ -1,13 +1,16 @@
 format: jb-book
 root: landing-page.md
-parts:
-- caption: Data mining
-  chapters:
-  - file: content/lessons/data_mining/data_mining.md
-  - file: content/lessons/svalbox_server/svalbox_server.md
-  - file: content/lessons/screen_recording/screen_recording.md
 
-- caption: GIS
+parts:
+- caption: SESSION 1
+  chapters:
+  - file: content/lessons/intro/intro.md
+  - url: https://unisvalbard.github.io/Geo-SfM/content/lessons/l1/sfm_photogrammetry.html
+    title: Geo-SfM module - SfM Photogrammetry
+  - url: https://unisvalbard.github.io/Geo-SfM/landing-page.html
+    title: Geo-SfM module
+
+- caption: SESSION 2
   chapters:
   - file: content/lessons/gis/gis.md
     sections:
