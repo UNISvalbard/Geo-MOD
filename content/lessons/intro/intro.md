@@ -1,75 +1,46 @@
-# GIS 101
+# Introduction to Geo-MOD
 
-A geographic information system (GIS) is a key component to integrate data geospatially, i.e., linking data to their physical locations on Earth.
-GIS is one of the way in which you can access the metadata of your georeferenced 3D model easily.
-It is the system that forms the foundation to almost everything that is Svalbox.
-In other words, everyone should at the very least grasp the basics - hence the need for this section.
+The Geo-MOD Course is a module that teaches students how to collect and process AUV-based field data for geoscientific use using advanced techniques. The course is designed to be interactive and openly accessible to everyone.
+
+Throughout the course, students will learn how to plan, execute, and process AUV-based acquisition campaigns using structure-from-motion techniques to create 3D and DEM models. The course is divided into six sessions that include a variety of engaging components, such as videos, animations, and in-person training. 
+
+Upon completing the course, students will receive a certificate affirming their ability to independently acquire, process, and disseminate data in a scientific manner.
 
 ```{admonition} Data source
 :class: note
 
-This page contains bits and pieces from all over the internet, supplemented by work by Peter Betlem and Nil Rodes.
-It's only use is to help form a basic understanding of GIS.
+This course contains bits and pieces from all over the internet, supplemented by in-house knowledge by Peter Betlem and Nil Rodes.
 ```
-
-## Some useful definitions
 
 ````{margin}
 ```{note}
-As in every field, there are some common phrases and definitions that are frequently used.
-Here we provide you with some of them.
+The certificate will only be available for the students taking the course in person at The University Centre in Svalbard.
 ```
 ````
 
-**ESRI**
-: Esri is an international supplier of geographic information system software, web GIS and geodatabase management applications.
-The company was founded as the Environmental Systems Research Institute in 1969 as a land-use consulting firm.
-Esri has tons of resources and online help for any kind of GIS questions.  
 
-**ArcGIS**
-: ArcGIS is a geographic information system (GIS) for working with maps and geographic information maintained by the Environmental Systems Research Institute (Esri).
-It is used for creating and using maps, compiling geographic data, analyzing mapped information, sharing and discovering geographic information, using maps and geographic information in a range of applications, and managing geographic information in a database.
+## Some useful definitions
 
-**ArcGIS Pro**
-:  A new, integrated GIS application, planned to eventually supersede ArcMap and its companion programs.
+Before starting with the technical parts, let's discuss some popular (and not that popular) terms such as "drone", "AUV", "UAS" or "RPA". Which one should we use?
+For starters, every UAV is a drone, but not every drone is a UAV. Here's a description of the different phrases you've likely heard to help you understand what each one means and what the difference (if any) there is between them:
 
-**QGIS**
-: QGIS is a free and open-source cross-platform desktop geographic information system application that supports viewing, editing, and analysis of geospatial data.
+**Drone**
+While "Drones" make most people think of "an unmanned aircraft that can fly autonomously-that is, without a human in control." It can actually be used to describe a wide variety of vehicles. For example, there are seafaring or land based autonomously vehicles that also count under the given definition of drone.
 
-**Layer**
-: Layers are the mechanism used to display geographic datasets.
-Each layer references a dataset and specifies how that dataset is portrayed using symbols and text labels.
-When you add a layer to a map, you specify its dataset and set its map symbols and labeling properties.
-Each map, globe, or scene document in ArcGIS is assembled by adding a series of layers.
-Layers are displayed in a particular order displayed in the map's table of contents. Layers listed at the bottom are displayed first, followed by the layers above them.
+Of course, the most common usage of the term refers to an aircraft that can be remotely or autonomously guided. Unfortunately, the only thing most experts can agree on with this term is that a drone doesn't have a pilot inside.
 
-**ShapeFile**
-: A shapefile is an Esri vector data storage format for storing the location, shape, and attributes of geographic features.
-It is stored as a set of related files and contains one feature class.
-Shapefiles often contain large features with a lot of associated data and historically have been used in GIS desktop applications such as ArcMap.
-A shapefile consists of multiple components, containing at least the .shp, .shx, .dbf, and .prj files.
-A better option is to use the opensource GeoPackage equivalent.
+**UAV**
+A UAV is an Unmanned Aerial Vehicle. They are able to fly remotely such as with a controller or tablet or autonomously. So, is UAV a drone? Basically, it is. The two terms are often used interchangeably. 
 
-**GeoPackage**
-: An open source storage format for storing the location, shape, and attributes of geographic features.
-May feature many different feature classes and files.
+However, many professionals in the industry believe UAVs need to have autonomous flight capabilities, whereas drones do not. Therefore, all UAVs are drones but not vice versa. But for now, go ahead and use the phrase you're most comfortable with! 
 
-**Feature Class**
-: Feature classes are homogeneous collections of common features, each having the same spatial representation, such as points, lines, or polygons, and a common set of attribute columns, for example, a line feature class for representing road centerlines.
-The four most commonly used feature classes are points, lines, polygons, and annotation (the geodatabase name for map text).
+**UAS**
+A UAS or Unmanned Aircraft Systems includes not only the UAV or Drone but also the person on the ground controlling the flight and the system in place that connects both of them. Basically, the UAV is a component of the UAS, since it refers to only the vehicle itself. 
 
-**Points**
-: Features that are too small to represent as lines or polygons as well as point locations (such as GPS observations).
+**RPA**
+Many pilots prefer the term "Remotely Piloted Aircraft." This is because flying certain types of UAVs require a lot more skill than anything you could buy in a store. Taking control of an RPA requires more than simple handheld controls.
 
-**Lines**
-: Represent the shape and location of geographic objects, such as street centerlines and streams, too narrow to depict as areas.
-Lines are also used to represent features that have length but no area, such as contour lines and boundaries.
 
-**Polygons**
-: A set of many-sided area features that represents the shape and location of homogeneous feature types such as states, counties, parcels, soil types, and land-use zones.
-
-**Annotation**
-: Map text including properties for how the text is rendered. For example, in addition to the text string of each annotation, other properties are included such as the shape points for placing the text, its font and point size, and other display properties. Annotation can also be feature linked and can contain subclasses.  
 
 
 ## Creation of a ArcGIS Pro project
