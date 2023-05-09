@@ -12,6 +12,21 @@ Geo-MOD is still in development, with additional tutorials and how-tos added con
 
 Notice some unclear sections? A typo in the text? Want to add a cool tutorial or how-to on processing? Get in touch and let's make thing happen!
 
+### Compile it
+
+The minimal Python environment to compile this tutorial can be created as follows:
+
+```
+mamba env create --file geomod_environment.yaml
+```
+
+Subsequently, one may build the pages by using the following command from the root folder:
+
+```
+jupyter book build .
+```
+
+
 ### Acknowledgements and licensing
 Geo-MOD is implemented through Jupyter Book and the Executable Book Project.
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
