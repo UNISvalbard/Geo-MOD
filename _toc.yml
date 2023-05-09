@@ -7,20 +7,35 @@ parts:
   - file: content/lessons/intro/intro.md
   - url: https://unisvalbard.github.io/Geo-SfM/content/lessons/l1/sfm_photogrammetry.html
     title: Geo-SfM module - SfM Photogrammetry
-  - url: https://unisvalbard.github.io/Geo-SfM/landing-page.html
-    title: Geo-SfM module
+  - url: https://unisvalbard.github.io/Geo-SfM/content/lessons/l2/overview.html
+    title: Geo-SfM module - Geo-referencing
 
 - caption: SESSION 2
   chapters:
-  - file: content/lessons/gis/gis.md
-    sections:
+  - url: https://unisvalbard.github.io/Geo-SfM/content/lessons/l2/overview.html
+    title: Geo-SfM module - Geo-referencing
     - file: content/lessons/gis_exercise/gis_exercise.md
   - file: content/lessons/story_maps/story_maps.md
-
+  - url: https://unisvalbard.github.io/Geo-SfM/content/lessons/l2/overview.html
+    title: Geo-SfM module - Geo-referencing
 - caption: Structure-from-motion
   chapters:
   - url: https://unisvalbard.github.io/Geo-SfM/landing-page.html
     title: Geo-SfM module
+
+- caption: SESSION 3
+
+
+- caption: SESSION 4
+
+
+- caption: SESSION 5
+  chapters:
+  - file: content/lessons/gis/gis.md
+
+- caption: SESSION 6
+
+
 
 - caption: Resources
   chapters:
