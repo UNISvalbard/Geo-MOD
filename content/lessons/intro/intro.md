@@ -6,17 +6,19 @@ Throughout the course, students will learn how to plan, execute, and process AUV
 
 Upon completing the course, students will receive a certificate affirming their ability to independently acquire, process, and disseminate data in a scientific manner.
 
+````{margin}
 ```{admonition} Data source
 :class: note
 
 This course contains bits and pieces from all over the internet, supplemented by in-house knowledge by Peter Betlem and Nil Rodes.
 ```
+````
 
-````{margin}
-```{note}
+
+```{admonition} Certification
+:class: tip
 The certificate will only be available for the students taking the course in person at The University Centre in Svalbard.
 ```
-````
 
 
 ## Some useful definitions
