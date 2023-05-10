@@ -3,22 +3,23 @@
 # Welcome to Geo-MOD: Teaching photogrammetry-based data acquisition
 The Geo-MOD course will run at [The University Centre in Svalbard](https://www.unis.no/) between the 19-24 of June 2023.
 
-This course is designed for students, as well as scientific and technical staff who are interested in learning or enhancing their skills in using AUV-based geoscientific data acquisition in the field. The course will also cover how to process the data using structure-from-motion techniques to produce scientifically deliverable and publishable 3D and DEM models.
+This course is designed for students, as well as scientific and technical staff who are interested in learning or enhancing their skills in using UAV-based geoscientific data acquisition in the field. The course will also cover how to process the data using structure-from-motion techniques to produce scientifically deliverable and publishable 3D and DEM models.
 
 ### About Geo-MOD
-[Geo-MOD](https://unisvalbard.github.io/Geo-MOD/landing-page.html) is an open-source reference work for the AUV-based data acquisition in the field.
+[Geo-MOD](https://unisvalbard.github.io/Geo-MOD/landing-page.html) is an open-source reference work for the UAV-based data acquisition in the field.
 
 The reference work is primarily developed as a class-room aid. Best practices and tutorials are based on the experience acquired as part of the [Svalbox project](https://svalbox.no), which aims to digitize as many outcrops as possible in Svalbard (Norwegian Arctic).
 
 ### Course content
 Geo-MOD course is split in several modules, consisting of interactive lectures walkthroughs, and exercises.
-- Technical pre-flight check list
-- Environment awareness
-- How to fly the drone (manual and auto)
-- Flight plan
-- Data acquisition
+- Introduction to Structure-from-Motion Photogrammetry
+- Geo-referencing
+- UAV flight regulations
+- Design your own flight plan
+- How to fly an UAV
+- UAV data acquisition
 
-Geo-MOD is complemented by [Geo-SfM](https://unisvalbard.github.io/Geo-SfM/landing-page.html), a tool for acquisition, processing and analysis of structure-from-motion photogrammetry data in the geosciences.
+Geo-MOD is complemented by [Geo-SfM](https://unisvalbard.github.io/Geo-SfM/landing-page.html), a tool for acquisition, processing and analysis of structure-from-motion photogrammetry data in the geosciences and [Geo-UAV](https://unisvalbard.github.io/Geo-UAV/landing-page.html), a tool for UAV-based data acquisition in the field.
 
 ```{admonition} Q&A
 Course participants are encouraged to use [Issues](https://unisvalbard.github.io/Geo-MOD/issues.html) on GitHub to raise questions regarding content issues so that everyone else with a similar doubt can look into it.
