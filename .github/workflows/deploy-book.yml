@@ -2,8 +2,8 @@ name: deploy-book
 
 # Only run this when the master branch changes
 on:
-  schedule:
-  - cron: "0 0 * * *"
+  #schedule:
+  #- cron: "0 0 * * *"
   push:
     branches:
     - main
