@@ -8,7 +8,7 @@ parts:
 
 - caption: SESSION 1
   chapters:
-   - url: https://unisvalbard.github.io/Geo-SfM/content/lessons/l1/sfm_photogrammetry.html
+  - url: https://unisvalbard.github.io/Geo-SfM/content/lessons/l1/sfm_photogrammetry.html
     title: Geo-SfM module - SfM Photogrammetry
   - url: https://unisvalbard.github.io/Geo-SfM/content/lessons/l2/overview.html
     title: SfM Photogrammetry Exercise
