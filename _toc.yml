@@ -24,11 +24,13 @@ parts:
   chapters:
   - url: https://unisvalbard.github.io/Geo-UAV/content/lessons/regulations/regulations.html
     title: UAV flight regulations
-  - file: content/lessons/license/operator_registration.md
+  - url: https://unisvalbard.github.io/Geo-UAV/content/lessons/regulations/operator_registration.html
+    title: UAV flight regulations
+  - file: content/lessons/license/geomod_requirements.md
 
 - caption: SESSION 4
   chapters:
-  - url: https://unisvalbard.github.io/Geo-UAV/content/lessons/check_list/check_list.html
+  - url: https://unisvalbard.github.io/Geo-UAV/content/lessons/check_list/preflight_checklist.html
     title: Pre-flight check list
   - url: https://unisvalbard.github.io/Geo-UAV/content/lessons/howto_fly/howto_fly.html
     title: How to fly an UAV (manual and auto)
@@ -60,3 +62,7 @@ parts:
   chapters:
   - url: https://unisvalbard.github.io/exbooks/
     title: UNIS Compendium Portal
+
+
+
+    
