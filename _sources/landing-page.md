@@ -29,7 +29,7 @@ Geo-MOD course is split in several modules, consisting of interactive lectures w
 ```{admonition} Q&A
 Course participants are encouraged to use [Issues](https://unisvalbard.github.io/Geo-MOD/issues.html) on GitHub to raise questions regarding content issues so that everyone else with a similar doubt can look into it.
 
-Alternatively, feel free to make notes and annotations through the included [Hypothes.is](hypothes.is) integration.
+Alternatively, feel free to make notes and annotations through the included [Hypothes.is](https://hypothes.is) integration.
 ```
 
 ### Project status
