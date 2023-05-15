@@ -28,6 +28,8 @@ Geo-MOD course is split in several modules, consisting of interactive lectures w
 
 ```{admonition} Q&A
 Course participants are encouraged to use [Issues](https://unisvalbard.github.io/Geo-MOD/issues.html) on GitHub to raise questions regarding content issues so that everyone else with a similar doubt can look into it.
+
+Alternatively, feel free to make notes and annotations through the included [Hypothes.is](https://hypothes.is) integration.
 ```
 
 ### Project status
@@ -45,10 +47,66 @@ Once connected, feel free to open an issue as per the above - whether suggesting
 ```
 
 ### Funding and Support
+
+`````{grid} 2 2 2 2
+
+````{grid-item}
+:columns: 4
+
+```{image} https://www.mn.uio.no/geo/english/research/networks/iearth/bilder/earthlogo-1000px.png
+:class: m-auto
+:width: 200px
+:target: https://iearth.no
+```
+````
+````{grid-item}
+:columns: 7
 The developement of Geo-MOD is funded by [iEarth](https://www.iearth.no/), a Norwegian Center of Excellence for Integrated Earth Science Education.
+````
 
-[Svalbox](https://svalbox.no), [UNIS](https://www.unis.no/) and [NFiP](https://nfip.no/) support the course project by providing necessary technical and logistical assistance.
+````{grid-item}
+:columns: 4
 
+```{image} https://svalbox.no/_static/logo.svg
+:class: m-auto
+:width: 50px
+:target: https://svalbox.no
+```
+````
+````{grid-item}
+:columns: 7
+The Geo-MOD course implements technical knowhow acquired through The [Svalbox](https://svalbox.no) Project.
+````
+
+````{grid-item}
+:columns: 4
+
+```{image} ./content/assets/UNIS_logo.gif
+:class: m-auto
+:width: 200px
+:target: https://unis.no
+```
+````
+````{grid-item}
+:columns: 7
+[UNIS](https://www.unis.no/) supports Geo-MOD by providing necessary technical and logistical assistance.
+````
+
+````{grid-item}
+:columns: 4
+
+```{image} 
+:class: m-auto
+:width: 200px
+:target: https://nfip.no
+```
+````
+````{grid-item}
+:columns: 7
+[NFiP](https://nfip.no/) financially supports Geo-MOD development and provided travel stipends for course participants.
+````
+
+`````
 
 
 ### Acknowledgements and licensing

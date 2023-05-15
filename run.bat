@@ -1,3 +1,5 @@
+set name=geomod
+
 cd %~dp0
 CALL conda activate %name%
 CALL jupyter book build .
