@@ -54,6 +54,7 @@ Once connected, feel free to open an issue as per the above - whether suggesting
 ```{image} https://www.mn.uio.no/geo/english/research/networks/iearth/bilder/earthlogo-1000px.png
 :class: m-auto
 :width: 200px
+:target: https://iearth.no
 ```
 ````
 ````{grid-item}
@@ -64,9 +65,10 @@ The developement of Geo-MOD is funded by [iEarth](https://www.iearth.no/), a Nor
 ````{grid-item}
 :columns: 4
 
-```{image} http://svalbox.no/_static/logo.svg
+```{image} https://svalbox.no/_static/logo.svg
 :class: m-auto
 :width: 50px
+:target: https://svalbox.no
 ```
 ````
 ````{grid-item}
@@ -80,6 +82,7 @@ The Geo-MOD course implements technical knowhow acquired through The [Svalbox](h
 ```{image} ./content/assets/UNIS_logo.gif
 :class: m-auto
 :width: 200px
+:target: https://unis.no
 ```
 ````
 ````{grid-item}
@@ -93,6 +96,7 @@ The Geo-MOD course implements technical knowhow acquired through The [Svalbox](h
 ```{image} 
 :class: m-auto
 :width: 200px
+:target: https://nfip.no
 ```
 ````
 ````{grid-item}
