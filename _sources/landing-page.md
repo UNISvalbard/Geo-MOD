@@ -87,7 +87,7 @@ The Geo-MOD course implements technical knowhow acquired through The [Svalbox](h
 ````
 ````{grid-item}
 :columns: 7
-[UNIS](https://www.unis.no/) supports the course project by providing necessary technical and logistical assistance.
+[UNIS](https://www.unis.no/) supports Geo-MOD by providing necessary technical and logistical assistance.
 ````
 
 ````{grid-item}
@@ -101,7 +101,7 @@ The Geo-MOD course implements technical knowhow acquired through The [Svalbox](h
 ````
 ````{grid-item}
 :columns: 7
-[NFiP](https://nfip.no/) financially supports the development of the course and provides travel stipends for course participants.
+[NFiP](https://nfip.no/) financially supports Geo-MOD development and provided travel stipends for course participants.
 ````
 
 `````
