@@ -45,10 +45,44 @@ Once connected, feel free to open an issue as per the above - whether suggesting
 ```
 
 ### Funding and Support
-The developement of Geo-MOD is funded by [iEarth](https://www.iearth.no/), a Norwegian Center of Excellence for Integrated Earth Science Education.
+
 
 [Svalbox](https://svalbox.no), [UNIS](https://www.unis.no/) and [NFiP](https://nfip.no/) support the course project by providing necessary technical and logistical assistance.
 
+::::{grid} 2 2 2 2
+
+:::{grid-item}
+:columns: 4
+
+```{image} https://www.mn.uio.no/geo/english/research/networks/iearth/bilder/earthlogo-1000px.png
+:class: m-auto
+:width: 200px
+```
+
+:::
+
+:::{grid-item}
+:columns: 7
+The developement of Geo-MOD is funded by [iEarth](https://www.iearth.no/), a Norwegian Center of Excellence for Integrated Earth Science Education..
+:::
+
+:::{grid-item}
+:columns: 4
+
+```{image} https://www.mn.uio.no/geo/english/research/networks/iearth/bilder/earthlogo-1000px.png
+:class: m-auto
+:width: 200px
+```
+:::
+
+:::{grid-item}
+:columns: 7
+The developement of Geo-MOD is funded by [iEarth](https://www.iearth.no/), a Norwegian Center of Excellence for Integrated Earth Science Education..
+:::
+
+
+
+::::
 
 
 ### Acknowledgements and licensing
