@@ -46,43 +46,61 @@ Once connected, feel free to open an issue as per the above - whether suggesting
 
 ### Funding and Support
 
+`````{grid} 2 2 2 2
 
-[Svalbox](https://svalbox.no), [UNIS](https://www.unis.no/) and [NFiP](https://nfip.no/) support the course project by providing necessary technical and logistical assistance.
-
-::::{grid} 2 2 2 2
-
-:::{grid-item}
+````{grid-item}
 :columns: 4
 
 ```{image} https://www.mn.uio.no/geo/english/research/networks/iearth/bilder/earthlogo-1000px.png
 :class: m-auto
 :width: 200px
 ```
-
-:::
-
-:::{grid-item}
+````
+````{grid-item}
 :columns: 7
-The developement of Geo-MOD is funded by [iEarth](https://www.iearth.no/), a Norwegian Center of Excellence for Integrated Earth Science Education..
-:::
+The developement of Geo-MOD is funded by [iEarth](https://www.iearth.no/), a Norwegian Center of Excellence for Integrated Earth Science Education.
+````
 
-:::{grid-item}
+````{grid-item}
 :columns: 4
 
-```{image} https://www.mn.uio.no/geo/english/research/networks/iearth/bilder/earthlogo-1000px.png
+```{image} http://svalbox.no/_static/logo.svg
+:class: m-auto
+:width: 50px
+```
+````
+````{grid-item}
+:columns: 7
+The Geo-MOD course implements technical knowhow acquired through The [Svalbox](https://svalbox.no) Project.
+````
+
+````{grid-item}
+:columns: 4
+
+```{image} ./content/assets/UNIS_logo.gif
 :class: m-auto
 :width: 200px
 ```
-:::
-
-:::{grid-item}
+````
+````{grid-item}
 :columns: 7
-The developement of Geo-MOD is funded by [iEarth](https://www.iearth.no/), a Norwegian Center of Excellence for Integrated Earth Science Education..
-:::
+[UNIS](https://www.unis.no/) supports the course project by providing necessary technical and logistical assistance.
+````
 
+````{grid-item}
+:columns: 4
 
+```{image} 
+:class: m-auto
+:width: 200px
+```
+````
+````{grid-item}
+:columns: 7
+[NFiP](https://nfip.no/) financially supports the development of the course and provides travel stipends for course participants.
+````
 
-::::
+`````
 
 
 ### Acknowledgements and licensing
