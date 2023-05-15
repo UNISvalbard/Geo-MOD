@@ -169,11 +169,12 @@ const thebe_selector_output = ".output, .cell_output"
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 3</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/regulations/regulations.html">UAV flight regulations</a></li>
-<li class="toctree-l1"><a class="reference internal" href="content/lessons/license/operator_registration.html">Register as a UAS operator</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/regulations/operator_registration.html">UAV flight regulations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/lessons/license/geomod_requirements.html">Geo-MOD UAV certificates requirements</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 4</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/check_list/check_list.html">Pre-flight check list</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/check_list/preflight_checklist.html">Pre-flight check list</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/howto_fly/howto_fly.html">How to fly an UAV (manual and auto)</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/flight_simulator/flight_simulator.html">AUV flight simulator</a></li>
 <li class="toctree-l1"><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/flightplan/flightplan.html">Design of a flight plan</a></li>
@@ -406,7 +407,7 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about-geo-mod">About Geo-MOD</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#course-content">Course content</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#course-content-and-learning-goals">Course content and learning goals</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-status">Project status</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contribute-or-improve-the-resource">Contribute or improve the resource</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#funding-and-support">Funding and Support</a></li>
@@ -426,14 +427,21 @@ document.write(`
 <section id="welcome-to-geo-mod-teaching-photogrammetry-based-data-acquisition">
 <h1>Welcome to Geo-MOD: Teaching photogrammetry-based data acquisition<a class="headerlink" href="#welcome-to-geo-mod-teaching-photogrammetry-based-data-acquisition" title="Permalink to this headline">#</a></h1>
 <p>The Geo-MOD course will run at <a class="reference external" href="https://www.unis.no/">The University Centre in Svalbard</a> between the 19-24 of June 2023.</p>
-<p>This course is designed for students, as well as scientific and technical staff who are interested in learning or enhancing their skills in using UAV-based geoscientific data acquisition in the field. The course will also cover how to process the data using structure-from-motion techniques to produce scientifically deliverable and publishable 3D and DEM models.</p>
+<p>This course is designed for students, as well as scientific and technical staff who are interested in learning or enhancing their skills in using UAV-based geoscientific data acquisition for photogrammetry in the field to produce scientifically deliverable and publishable 3D and DEM models.</p>
+<p>UAV photogrammetry consists of three main stages:</p>
+<ol class="arabic simple">
+<li><p>Data acquisition</p></li>
+<li><p>Data processing</p></li>
+<li><p>Data analysis</p></li>
+</ol>
+<p>Geo-MOD is complemented by different modules to cover each stage of the UAV photogrammetry workflow. <a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/landing-page.html">Geo-UAV</a>, is a tool for UAV-based data acquisition in the field, <a class="reference external" href="https://unisvalbard.github.io/Geo-SfM/landing-page.html">Geo-SfM</a> is a tool for acquisition, processing and analysis of structure-from-motion photogrammetry data in the geosciences and <a class="reference external" href="https://unisvalbard.github.io/AG222/landing-page.html">AG-222 Compendium</a> is a tool that provides different resources for analyzing the data and publish your research.</p>
 <section id="about-geo-mod">
 <h2>About Geo-MOD<a class="headerlink" href="#about-geo-mod" title="Permalink to this headline">#</a></h2>
 <p><a class="reference external" href="https://unisvalbard.github.io/Geo-MOD/landing-page.html">Geo-MOD</a> is an open-source reference work for the UAV-based data acquisition in the field.</p>
 <p>The reference work is primarily developed as a class-room aid. Best practices and tutorials are based on the experience acquired as part of the <a class="reference external" href="https://svalbox.no">Svalbox project</a>, which aims to digitize as many outcrops as possible in Svalbard (Norwegian Arctic).</p>
 </section>
-<section id="course-content">
-<h2>Course content<a class="headerlink" href="#course-content" title="Permalink to this headline">#</a></h2>
+<section id="course-content-and-learning-goals">
+<h2>Course content and learning goals<a class="headerlink" href="#course-content-and-learning-goals" title="Permalink to this headline">#</a></h2>
 <p>Geo-MOD course is split in several modules, consisting of interactive lectures walkthroughs, and exercises.</p>
 <ul class="simple">
 <li><p>Introduction to Structure-from-Motion Photogrammetry</p></li>
@@ -443,7 +451,6 @@ document.write(`
 <li><p>How to fly an UAV</p></li>
 <li><p>UAV data acquisition</p></li>
 </ul>
-<p>Geo-MOD is complemented by <a class="reference external" href="https://unisvalbard.github.io/Geo-SfM/landing-page.html">Geo-SfM</a>, a tool for acquisition, processing and analysis of structure-from-motion photogrammetry data in the geosciences and <a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/landing-page.html">Geo-UAV</a>, a tool for UAV-based data acquisition in the field.</p>
 <div class="admonition-q-a admonition">
 <p class="admonition-title">Q&amp;A</p>
 <p>Course participants are encouraged to use <a class="reference external" href="https://unisvalbard.github.io/Geo-MOD/issues.html">Issues</a> on GitHub to raise questions regarding content issues so that everyone else with a similar doubt can look into it.</p>
@@ -468,7 +475,7 @@ Once connected, feel free to open an issue as per the above - whether suggesting
 <section id="funding-and-support">
 <h2>Funding and Support<a class="headerlink" href="#funding-and-support" title="Permalink to this headline">#</a></h2>
 <p>The developement of Geo-MOD is funded by <a class="reference external" href="https://www.iearth.no/">iEarth</a>, a Norwegian Center of Excellence for Integrated Earth Science Education.</p>
-<p><a class="reference external" href="https://svalbox.no">Svalbox</a> and <a class="reference external" href="https://www.unis.no/">UNIS</a> support the course project by providing necessary technical and logistical assistance.</p>
+<p><a class="reference external" href="https://svalbox.no">Svalbox</a>, <a class="reference external" href="https://www.unis.no/">UNIS</a> and <a class="reference external" href="https://nfip.no/">NFiP</a> support the course project by providing necessary technical and logistical assistance.</p>
 </section>
 <section id="acknowledgements-and-licensing">
 <h2>Acknowledgements and licensing<a class="headerlink" href="#acknowledgements-and-licensing" title="Permalink to this headline">#</a></h2>
@@ -554,7 +561,7 @@ This work is licensed under a <a rel="license" href="http://creativecommons.org/
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about-geo-mod">About Geo-MOD</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#course-content">Course content</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#course-content-and-learning-goals">Course content and learning goals</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-status">Project status</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contribute-or-improve-the-resource">Contribute or improve the resource</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#funding-and-support">Funding and Support</a></li>
