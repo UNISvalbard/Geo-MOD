@@ -15,4 +15,11 @@ Private individuals pay an **annual** fee of 220 nok (in 2022). Note that Each s
 
 Once you have passed the A1 / A3 certificate of competence, download it from "My page" on flydrone.no.
 
+
+```{figure} assets/certificate_example.jpg
+:name: certificate_example
+
+The certificate of competence looks similar to this one.
+```
+
 _Now you are ready to fly. Enjoy your flight, and always fly safely and considerately!_
