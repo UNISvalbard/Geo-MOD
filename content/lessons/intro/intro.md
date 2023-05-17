@@ -8,7 +8,7 @@ This course contains bits and pieces from all over the internet, supplemented by
 ````
 Welcome to the Geo-MOD Course!
 
-The Geo-MOD Course is a module that teaches students how to collect and process AUV-based field data for geoscientific use using advanced techniques. The course is designed to be interactive and openly accessible to everyone.
+The Geo-MOD Course is a module to teach students how to collect and process AUV-based field data for geoscientific use using advanced techniques. The course is designed to be interactive and openly accessible to everyone.
 
 Throughout the course, students will learn how to plan, execute, and process AUV-based acquisition campaigns using structure-from-motion techniques to create 3D and DEM models. The course is divided into six sessions that include a variety of engaging components, such as videos, animations, and in-person training. 
 
