@@ -34,4 +34,7 @@ UAV photogrammetry consists of three main stages:
 Geo-MOD is complemented by different modules to cover each stage of the UAV photogrammetry workflow. [Geo-UAV](https://unisvalbard.github.io/Geo-UAV/landing-page.html), is a tool for UAV-based data acquisition in the field, [Geo-SfM](https://unisvalbard.github.io/Geo-SfM/landing-page.html) is a tool for acquisition, processing and analysis of structure-from-motion photogrammetry data in the geosciences and [AG-222 Compendium](https://unisvalbard.github.io/AG222/landing-page.html) is a tool that provides different resources for analyzing the data and publish your research.
 
 ## Learning outcomes
-
+```{admonition} Under construction!
+:class: warning
+The learning outcomes section is still under construction.
+```
