@@ -1,7 +1,7 @@
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
 
 # Welcome to Geo-MOD: Teaching photogrammetry-based data acquisition
-The Geo-MOD course will run at [The University Centre in Svalbard](https://www.unis.no/) between the 19-24 of June 2023.
+The Geo-MOD course will run at [The University Centre in Svalbard](https://www.unis.no/) between the **19-24 of June 2023**.
 
 This course is designed for students, as well as scientific and technical staff who are interested in learning or enhancing their skills in using UAV-based geoscientific data acquisition for photogrammetry in the field to produce scientifically deliverable and publishable 3D and DEM models.
 
