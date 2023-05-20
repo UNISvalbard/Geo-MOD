@@ -1,11 +1,4 @@
 # Introduction to Geo-MOD
-````{margin}
-```{admonition} Data source
-:class: note
-
-This course contains bits and pieces from all over the internet, supplemented by in-house knowledge by Peter Betlem and Nil Rodes.
-```
-````
 Welcome to the Geo-MOD Course!
 
 The Geo-MOD Course is a module to teach students how to collect and process AUV-based field data for geoscientific use using advanced techniques. The course is designed to be interactive and openly accessible to everyone.
@@ -34,7 +27,10 @@ UAV photogrammetry consists of three main stages:
 Geo-MOD is complemented by different modules to cover each stage of the UAV photogrammetry workflow. [Geo-UAV](https://unisvalbard.github.io/Geo-UAV/landing-page.html), is a tool for UAV-based data acquisition in the field, [Geo-SfM](https://unisvalbard.github.io/Geo-SfM/landing-page.html) is a tool for acquisition, processing and analysis of structure-from-motion photogrammetry data in the geosciences and [AG-222 Compendium](https://unisvalbard.github.io/AG222/landing-page.html) is a tool that provides different resources for analyzing the data and publish your research.
 
 ## Learning outcomes
-```{admonition} Under construction!
-:class: warning
-The learning outcomes section is still under construction.
-```
+Participants in the Geo-MOD course will learn how to perform a complete UAV photogrammetry workflow. This will cover data acquisition, data processing, and a brief overview of data analysis.
+
+- Plan and conduct a UAV survey in compliance with local regulations, prioritizing safety and efficiency, while using best practices for data acquisition.
+- Acquire UAV-based digital outcrop model data.
+- Get acquainted with the fundamental concepts of structure-from-motion photogrammetry.
+- Process photogrammetry data with specialized software to produce 3D and DEMs models and disseminate them following the FAIR (Findability, Accessibility, Interoperability and Reusability) data principles.
+- Use online resources and GIS software platforms to analyze DEMs.
