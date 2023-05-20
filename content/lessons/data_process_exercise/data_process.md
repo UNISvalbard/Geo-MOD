@@ -96,10 +96,10 @@ Finalise the outcrop metadata form and discuss it with the course responsible. R
 
 You can upload your model to Sketchfab directly from Agisoft Metashape or throught the webpage. In case you choose the second option, you have to export the _Mesh_ and _Texture_ files from your project and upload them manually online.
 
-## Import the DEM to a GIS project
+## 6. Import the DEM to a GIS project
 You can import the DEM you created to a GIS project.
 
-Follow the tutorial on _Importing a digital terrain model_ a the [AG-222 Compendium - GIS101](https://unisvalbard.github.io/AG222/content/lessons/gis/gis.html).
+Follow the tutorial on _Importing a digital terrain model_ a the [AG-222 Compendium - GIS 101](https://unisvalbard.github.io/AG222/content/lessons/gis/gis.html).
 
 ```{admonition} 2D representation
 :class: note
