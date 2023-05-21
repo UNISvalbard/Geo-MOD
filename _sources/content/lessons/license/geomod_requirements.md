@@ -1,5 +1,5 @@
 # Geo-MOD UAV certificates requirements
-During the Geo-MOD course, you will fly UAVs heavier than 250 grams in the open category. Since we will not fly UAVs 120m higher than the take-off point and we will only fly them within line-of-sight, we will only need to have the certificate for the A1/A3 subcategory.
+In the Geo-MOD course, you will operate UAVs in the open category that weigh more than 250 grams. Since we will not fly UAVs 120 m higher than the take-off point and we will only fly them within line-of-sight, we will need to have the certificate for the A1/A3 subcategory.
 
 ```{admonition} Requirement
 :class: warning
@@ -10,9 +10,14 @@ After registering as a UAV operator in [flydrone.no](https://flydrone.no/registe
 
 ```{admonition} Fees of certificate of competence
 :class: note
-Private individuals pay an **annual** fee of 220 nok (in 2022). Note that Each student will cover the costs individually.
+Private individuals pay an **annual** fee of 220 nok (in 2022). Note that _each_ student will cover the costs individually.
 ```
 
 Once you have passed the A1 / A3 certificate of competence, download it from "My page" on flydrone.no.
 
-_Now you are ready to fly. Enjoy your flight, and always fly safely and considerately!_
+
+```{figure} assets/certificate_example.jpg
+:name: certificate_example
+
+The certificate of competence looks similar to this one.
+```
