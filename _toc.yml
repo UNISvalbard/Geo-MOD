@@ -6,9 +6,9 @@ parts:
   chapters:
   - file: content/lessons/intro/intro.md
     sections:
-    - url: https://unisvalbard.github.io/Geo-SfM/content/lessons/uav_types/definitions.html
+    - url: https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/definitions.html
       title: Some useful definitions
-    - url: https://unisvalbard.github.io/Geo-SfM/content/lessons/uav_types/uav_types.html
+    - url: https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_types.html
       title: Types of UAVs
 
 - caption: SESSION 1
