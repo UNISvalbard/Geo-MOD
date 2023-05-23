@@ -12,12 +12,196 @@ UAV photogrammetry consists of three main stages:
 
 Geo-MOD is complemented by different modules to cover each stage of the UAV photogrammetry workflow. [Geo-UAV](https://unisvalbard.github.io/Geo-UAV/landing-page.html), is a tutorial for UAV-based data acquisition in the field, [Geo-SfM](https://unisvalbard.github.io/Geo-SfM/landing-page.html) is a tutorial for acquisition, processing and analysis of structure-from-motion photogrammetry data in the geosciences and [AG-222 Compendium](https://unisvalbard.github.io/AG222/landing-page.html) is a tutorial that provides different resources for analyzing the data and publish your research.
 
-### About Geo-MOD
+## Schedule
+
+````{grid}
+
+```{grid-item}
+:columns: 1
+**DAY**
+```
+
+```{grid-item}
+:columns: 2
+**DATE**
+```
+
+```{grid-item}
+:columns: 2
+**TIME**
+```
+
+```{grid-item}
+:columns: 5
+**CONTENT**
+```
+
+```{grid-item}
+:columns: 2
+**ROOM**
+```
+
+```{grid-item}
+:columns: 1
+Day 1
+```
+
+```{grid-item}
+:columns: 2
+19.06.2023
+```
+
+```{grid-item}
+:columns: 2
+09.00 - 16.00
+```
+
+```{grid-item}
+:columns: 5
+Intro to Photogrammetry
+```
+
+```{grid-item}
+:columns: 2
+Signehamna
+```
+
+```{grid-item}
+:columns: 1
+Day 2
+```
+
+```{grid-item}
+:columns: 2
+20.06.2023
+```
+
+```{grid-item}
+:columns: 2
+09.00 - 16.00
+```
+
+```{grid-item}
+:columns: 5
+Data acquisition and processing //
+UAV Theory and regulations
+```
+
+```{grid-item}
+:columns: 2
+Signehamna
+```
+
+```{grid-item}
+:columns: 1
+Day 3
+```
+
+```{grid-item}
+:columns: 2
+21.06.2023
+```
+
+```{grid-item}
+:columns: 2
+09.00 - 16.00
+```
+
+```{grid-item}
+:columns: 5
+Theory field data acquisition //
+Field data acquisition
+```
+
+```{grid-item}
+:columns: 2
+Signehamna //
+_Field_
+```
+
+```{grid-item}
+:columns: 1
+Day 4
+```
+
+```{grid-item}
+:columns: 2
+22.06.2023
+```
+
+```{grid-item}
+:columns: 2
+09.00 - 16.00
+```
+
+```{grid-item}
+:columns: 5
+Field data acquisition
+```
+
+```{grid-item}
+:columns: 2
+_Field_
+```
+
+```{grid-item}
+:columns: 1
+Day 5
+```
+
+```{grid-item}
+:columns: 2
+23.06.2023
+```
+
+```{grid-item}
+:columns: 2
+09.00 - 16.00
+```
+
+```{grid-item}
+:columns: 5
+Data process, analysis and publishing
+```
+
+```{grid-item}
+:columns: 2
+Signehamna
+```
+
+```{grid-item}
+:columns: 1
+Day 6
+```
+
+```{grid-item}
+:columns: 2
+24.06.2023
+```
+
+```{grid-item}
+:columns: 2
+09.00 - 12.00
+```
+
+```{grid-item}
+:columns: 5
+Questionnaire, certification, Q&A
+```
+
+```{grid-item}
+:columns: 2
+Signehamna
+```
+
+````
+
+## About Geo-MOD
 [Geo-MOD](https://unisvalbard.github.io/Geo-MOD/landing-page.html) is an open-source reference work for the UAV-based data acquisition in the field.
 
 The reference work is primarily developed as a class-room aid. Best practices and tutorials are based on the experience acquired as part of the [Svalbox project](https://svalbox.no), which aims to digitize as many outcrops as possible in Svalbard (Norwegian Arctic).
 
-### Course content and learning goals
+## Course content and learning goals
 Geo-MOD course is split in several modules, consisting of interactive lectures walkthroughs, and exercises.
 - Introduction to Structure-from-Motion Photogrammetry
 - Geo-referencing
@@ -32,10 +216,10 @@ Course participants are encouraged to use [Issues](https://unisvalbard.github.io
 Alternatively, feel free to make notes and annotations through the included [Hypothes.is](https://hypothes.is) integration.
 ```
 
-### Project status
+## Project status
 Geo-MOD is still in development, with additional tutorials and how-tos added continously to keep the work up-to-date with recent developments and evolving best practices.
 
-### Contribute or improve the resource
+## Contribute or improve the resource
 Notice some unclear sections? A typo in the text? Want to add a cool tutorial or how-to on processing? Get in touch and let's make thing happen!
 
 ```{figure} assets/github_tut.gif
@@ -46,7 +230,7 @@ All it takes is a [Github account](https://github.com/join), which even comes wi
 Once connected, feel free to open an issue as per the above - whether suggesting improvements or highlighting bugs.
 ```
 
-### Funding and Support
+## Funding and Support
 
 `````{grid} 2 2 2 2
 
@@ -109,7 +293,7 @@ The Geo-MOD course implements technical knowhow acquired through The [Svalbox](h
 `````
 
 
-### Acknowledgements and licensing
+## Acknowledgements and licensing
 Geo-MOD is implemented through Jupyter Book and the Executable Book Project.
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
