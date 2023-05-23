@@ -10,7 +10,7 @@ After collecting data using UAV in the field, it's time to process it by creatin
 - Discover and implement basic tips and tricks for data acquisition in the field.
 - Measure your models.
 - Annotate and interpret your 3D model using Metashape GUI.
-- Upload the 3D model to Sketchfab and export a DEM.
+- Upload the 3D model to Sketchfab and export an orthomosaic and digital elevation model (DEM).
 
 ```{admonition} Support
 :class: warning

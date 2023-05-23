@@ -14,8 +14,8 @@ The focus of this session is to plan and prepare everything that is needed for a
 ## Assignment
 The well-known riverbed outcrop in Todalen is missing in the [Svalbox DOM database](http://svalbox.no/wp-content/scripts/svalbox-map/Wordpress_Map.php).
 
-````{figure} assets/todalen_outcrop.png
-:name: todalen_outcrop
+````{figure} assets/todalen_outcrop1.jpg
+:name: todalen_outcrop1
 
 The red dot shows the location of the outcrop. Approximate coordinates: 
 ```
