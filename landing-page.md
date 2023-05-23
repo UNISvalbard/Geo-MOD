@@ -14,187 +14,44 @@ Geo-MOD is complemented by different modules to cover each stage of the UAV phot
 
 ## Schedule
 
-````{grid}
-
-```{grid-item}
-:columns: 1
-**DAY**
+```{list-table}
+:header-rows: 1
+* - DAY
+  - DATE
+  - TIME
+  - CONTENT
+  - ROOM
+* - Day 1
+  - 19.06.2023
+  - 09.00 - 16.00
+  - Intro to Photogrammetry
+  - Signehamna
+* - Day 2
+  - 20.06.2023
+  - 09.00 - 16.00
+  - Data acquisition and processing // UAV Theory and regulations
+  - Signehamna
+* - Day 3
+  - 21.06.2023
+  - 09.00 - 16.00
+  - Theory field data acquisition // Field data acquisition
+  - Signehamna // _Field_
+* - Day 4
+  - 22.06.2023
+  - 09.00 - 16.00
+  - Field data acquisition
+  - _Field_
+* - Day 5
+  - 23.06.2023
+  - 09.00 - 16.00
+  - Data process, analysis and publishing
+  - Signehamna
+* - Day 6
+  - 24.06.2023
+  - 09.00 - 12.00
+  - Questionnaire, certification, Q&A
+  - Signehamna
 ```
-
-```{grid-item}
-:columns: 2
-**DATE**
-```
-
-```{grid-item}
-:columns: 2
-**TIME**
-```
-
-```{grid-item}
-:columns: 5
-**CONTENT**
-```
-
-```{grid-item}
-:columns: 2
-**ROOM**
-```
-
-```{grid-item}
-:columns: 1
-Day 1
-```
-
-```{grid-item}
-:columns: 2
-19.06.2023
-```
-
-```{grid-item}
-:columns: 2
-09.00 - 16.00
-```
-
-```{grid-item}
-:columns: 5
-Intro to Photogrammetry
-```
-
-```{grid-item}
-:columns: 2
-Signehamna
-```
-
-```{grid-item}
-:columns: 1
-Day 2
-```
-
-```{grid-item}
-:columns: 2
-20.06.2023
-```
-
-```{grid-item}
-:columns: 2
-09.00 - 16.00
-```
-
-```{grid-item}
-:columns: 5
-Data acquisition and processing //
-UAV Theory and regulations
-```
-
-```{grid-item}
-:columns: 2
-Signehamna
-```
-
-```{grid-item}
-:columns: 1
-Day 3
-```
-
-```{grid-item}
-:columns: 2
-21.06.2023
-```
-
-```{grid-item}
-:columns: 2
-09.00 - 16.00
-```
-
-```{grid-item}
-:columns: 5
-Theory field data acquisition //
-Field data acquisition
-```
-
-```{grid-item}
-:columns: 2
-Signehamna //
-_Field_
-```
-
-```{grid-item}
-:columns: 1
-Day 4
-```
-
-```{grid-item}
-:columns: 2
-22.06.2023
-```
-
-```{grid-item}
-:columns: 2
-09.00 - 16.00
-```
-
-```{grid-item}
-:columns: 5
-Field data acquisition
-```
-
-```{grid-item}
-:columns: 2
-_Field_
-```
-
-```{grid-item}
-:columns: 1
-Day 5
-```
-
-```{grid-item}
-:columns: 2
-23.06.2023
-```
-
-```{grid-item}
-:columns: 2
-09.00 - 16.00
-```
-
-```{grid-item}
-:columns: 5
-Data process, analysis and publishing
-```
-
-```{grid-item}
-:columns: 2
-Signehamna
-```
-
-```{grid-item}
-:columns: 1
-Day 6
-```
-
-```{grid-item}
-:columns: 2
-24.06.2023
-```
-
-```{grid-item}
-:columns: 2
-09.00 - 12.00
-```
-
-```{grid-item}
-:columns: 5
-Questionnaire, certification, Q&A
-```
-
-```{grid-item}
-:columns: 2
-Signehamna
-```
-
-````
 
 ## About Geo-MOD
 [Geo-MOD](https://unisvalbard.github.io/Geo-MOD/landing-page.html) is an open-source reference work for the UAV-based data acquisition in the field.
