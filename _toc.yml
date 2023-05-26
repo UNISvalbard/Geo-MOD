@@ -60,8 +60,13 @@ parts:
   chapters:
   - file: content/lessons/data_process_exercise/data_process.md
     title: Exercise 4 - Process and analyze your field data
-  - url: https://unisvalbard.github.io/AG222/content/lessons/gis/gis.html
-    title: GIS 101
+    sections:
+    - url: https://unisvalbard.github.io/Geo-SfM/content/lessons/l5/geomodel_tutorial.html
+      title: Geomodeling tutorial
+    - url: https://unisvalbard.github.io/Geo-SfM/content/lessons/l6/sketchfab.html
+      title: Upload to Sketchfab
+    - url: https://unisvalbard.github.io/AG222/content/lessons/gis/gis.html
+      title: GIS 101    
 
 - caption: EVALUATION & QUESTIONNAIRE
   chapters:
