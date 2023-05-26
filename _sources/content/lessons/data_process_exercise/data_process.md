@@ -92,7 +92,9 @@ Sketchfab is an online platform that allows uploading 3D models. While it doesn'
 ```
 ````
 
-Finalise the outcrop metadata form and discuss it with the course responsible. Remember to include the SketchFab ID, which can only be obtained after the submission has been quality controlled and the model has been uploaded to [SketchFab](https://unisvalbard.github.io/Geo-SfM/content/lessons/l6/sketchfab.html).
+Finalise the outcrop metadata form and discuss it with the course responsible. Remember to include the SketchFab ID, which can only be obtained after the submission has been quality controlled and the model has been uploaded to [SketchFab](https://sketchfab.com/).
+
+You can upload your model to Sketchfab directly from Agisoft Metashape or throught the webpage. In case you choose the second option, you have to export the _Mesh_ and _Texture_ files from your project and upload them manually online.
 
 ## 6. Import the DEM to a GIS project
 You can import the DEM you created to a GIS project.
