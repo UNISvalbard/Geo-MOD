@@ -8,7 +8,7 @@ The Norwegian Aviation Authority (Luftfartstilsynet) provides online trainings f
 - Security courses.
 
 ```{admonition} Access the training platform
-:class: note
+:class: seealso
 
 You can access the training courses though your personal account [here](https://kurs.caa.no/login/index.php?lang=en_wp).
 ```
