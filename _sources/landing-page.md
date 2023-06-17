@@ -38,17 +38,17 @@ Geo-MOD is complemented by different modules to cover each stage of the UAV phot
   - 19.06.2023
   - 09.00 - 16.00
   - Intro to Photogrammetry
-  - Signehamna
+  - [Signehamna](https://unisvalbard.github.io/AG222/content/lessons/about/seismic_lab.html)
 * - Day 2
   - 20.06.2023
   - 09.00 - 16.00
   - Data acquisition and processing // UAV Theory and regulations
-  - Signehamna
+  - [Signehamna](https://unisvalbard.github.io/AG222/content/lessons/about/seismic_lab.html)
 * - Day 3
   - 21.06.2023
   - 09.00 - 16.00
   - Theory field data acquisition // Field data acquisition
-  - Signehamna // _Field_
+  - [Signehamna](https://unisvalbard.github.io/AG222/content/lessons/about/seismic_lab.html) // _Field_
 * - Day 4
   - 22.06.2023
   - 09.00 - 16.00
@@ -58,12 +58,12 @@ Geo-MOD is complemented by different modules to cover each stage of the UAV phot
   - 23.06.2023
   - 09.00 - 16.00
   - Data process, analysis and publishing
-  - Signehamna
+  - [Signehamna](https://unisvalbard.github.io/AG222/content/lessons/about/seismic_lab.html)
 * - Day 6
   - 24.06.2023
   - 09.00 - 12.00
   - Questionnaire, certification, Q&A
-  - Signehamna
+  - [Signehamna](https://unisvalbard.github.io/AG222/content/lessons/about/seismic_lab.html)
 ```
 
 ## About Geo-MOD
