@@ -69,7 +69,7 @@ Geo-MOD is complemented by different modules to cover each stage of the UAV phot
 ## About Geo-MOD
 [Geo-MOD](https://unisvalbard.github.io/Geo-MOD/landing-page.html) is an open-source reference work for the UAV-based data acquisition in the field.
 
-The reference work is primarily developed as a class-room aid. Best practices and tutorials are based on the experience acquired as part of the [Svalbox project](https://svalbox.no), which aims to digitalize as many outcrops as possible in Svalbard (Norwegian Arctic).
+The reference work is primarily developed as a class-room aid. Best practices and tutorials are based on the experience acquired as part of the [Svalbox project](https://svalbox.no), which aims to digitize as many outcrops as possible in Svalbard (Norwegian Arctic).
 
 ## Course content and learning goals
 Geo-MOD course is split in several modules, consisting of interactive lectures walkthroughs, and exercises.

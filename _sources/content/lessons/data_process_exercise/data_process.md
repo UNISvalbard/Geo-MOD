@@ -27,45 +27,10 @@ It's important to download and organize your images as soon as possible. This no
 
 It's crucial to utilize a standardized project environment when creating a project to ensure automated processing and archiving. Keep this in mind.
 
-````{admonition} Standardised project environment
+```{admonition} Standardised project environment
 :class: note
 Our recommendation is to utilize the standardized project environment that is outlined in the [Metashape tutorial](https://unisvalbard.github.io/Geo-SfM/content/lessons/l1/tutorial#a-standardised-project-environment).
-
 ```
-{project_directory} (The folder with all files related to this project)
-|   overview_img.{ext}
-|   description.txt
-├───config (where you place your configuration files)
-        {cfg_0001}.yml
-        {cfg_0002}.yml
-        ...
-├───data (where you unzipped the files to)
-├───────f0001 (The folder with images acquired on the first flight)
-|           {img_0001}.{ext}
-|           {img_0002}.{ext}
-|           ...
-├───────f0002 (The folder with images acquired on the second flight)
-|           {img_0001}.{ext}
-|           {img_0002}.{ext}
-|           ...
-|       ...
-├───────f9999 (The folder with images acquired on the last flight)
-|           {img_0001}.{ext}
-|           {img_0002}.{ext}
-|           ...
-├───────gcps
-|           (We'll get back to this in a later session)
-├───────GNSS
-|           (We'll get back to this in a later session)
-├───export (where you place export models and files to)
-        ...
-└───metashape (This is where you save your Agisoft Metashape projects to)
-        {metashape_project_name}.psx
-        .{metashape_project_name}.files
-        {metashape_project_name}_processing_report.pdf
-        (optionally: {metashape_project_name}.log)
-```
-````
 
 ````{margin} Network processing
 
