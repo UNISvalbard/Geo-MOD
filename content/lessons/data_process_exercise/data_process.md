@@ -1,5 +1,7 @@
 # Exercise 4 - Process and analyze your data
-````{admonition} Deliverable
+````{admonition} Deliverable & Deadline
+Please complete this exercise **by the end of SESSION 5 by Friday 23rd of June, 2023**.
+
 - Brief animation of your model recorded in Agisoft Metashape
 - Export Model/Mesh with textures; orthomosaic
 - Export processing report
@@ -14,11 +16,6 @@
 The use of PowerPoint and screenshots for presenting your data is not allowed.
 ```
 ````
-
-```{admonition} Deadline
-:class: note
-Please complete this exercise **by the end of SESSION 5 by Friday 23rd of June, 2023**.
-```
 
 After collecting data using UAV in the field, it's time to process it by creating a 3D model and analyzing it. In this exercise, you'll learn how to:
 - Structure the field data in your computer.
