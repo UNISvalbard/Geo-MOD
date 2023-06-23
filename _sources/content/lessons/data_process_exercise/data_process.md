@@ -142,9 +142,10 @@ You can find a description of the tools used for interpreting and annotating dig
 Sketchfab is an online platform that allows uploading 3D models. While it doesn't keep the original quality of the model due to web limitations, it is an excellent way to share and visualize your models online.
 ```
 ````
-Finalise the outcrop metadata form and discuss it with the course responsible. Remember to include the SketchFab ID, which can only be obtained after the submission has been quality controlled and the model has been uploaded to [SketchFab](https://unisvalbard.github.io/Geo-SfM/content/lessons/l6/sketchfab.html).
+Finalise the outcrop **Metadata form** and discuss it with the course responsible. Remember to include the SketchFab ID, which can only be obtained after the submission has been quality controlled and the model has been uploaded to [SketchFab](https://unisvalbard.github.io/Geo-SfM/content/lessons/l6/sketchfab.html).
 
-```Metadata form
+### Metadata form
+```
 acq_camera_lens: # mm
 acq_camera_model: 
 acq_date:  # STRING DD.MM.YYYY
