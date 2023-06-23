@@ -51,7 +51,7 @@ To design your flight plan and focus on the outcrop, take advantage of online re
 :class: note
 
 - What is the (geological) interest/purpose of the DOM?
-- What factors should you consider before even acquiring the data? (e.g. scale, resolution, precision requirements?)
+- What factors should you consider before acquiring the data? (e.g. scale, resolution, precision requirements?)
 - What resources (e.g. batteries) do I have?
 - What limitations are present and what should I expect?
 - What flight pattern will I follow?
@@ -78,7 +78,7 @@ crew:
 flight:
     date:  # in DD/MM/YYYY
     location: # Where do you find your outcrop target?
-    land:
+    land: # PICK: Albert I Land / Andrée Land / Bünsow Land / Dickson Land / Haakon VII Land / Heer Land / James I Land / Nathorst Land / Nordenskiöld Land / Ny-Friesland / Olav V Land / Oscar II Land / Sabine Land / Sørkapp Land / Torell Land / Wedel Jarlsberg Land / Gustav Adolf Land / Gustav V Land / Orvin Land
     island:  # PICK: Hopen / Spitsbergen / Kong Karls Land / Edgeøya / Barentsøya / Tusenøyane / Nordaustlandet / Kvitøya / Prins Karls Forland / Bjørnøya / Other
     flight_description:  # Add a brief description of flight objectives
 
@@ -90,7 +90,7 @@ uav:
 documentation: 
     documentation:  # Additional authorisations (if required)
 
-weather_info:  # to be filled once in the field
+weather_info:  # to be filled in the field
     cloud_cover:  # % of cloud cover
     temperature:  # in degrees Celsius
     wind_direction:
