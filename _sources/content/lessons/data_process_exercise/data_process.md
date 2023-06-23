@@ -1,5 +1,7 @@
 # Exercise 4 - Process and analyze your data
-````{admonition} Deliverable
+````{admonition} Deliverable & Deadline
+Please complete this exercise **by the end of SESSION 5 by Friday 23rd of June, 2023**.
+
 - Brief animation of your model recorded in Agisoft Metashape
 - Export Model/Mesh with textures; orthomosaic
 - Export processing report
@@ -14,11 +16,6 @@
 The use of PowerPoint and screenshots for presenting your data is not allowed.
 ```
 ````
-
-```{admonition} Deadline
-:class: note
-Please complete this exercise **by the end of SESSION 5 by Friday 23rd of June, 2023**.
-```
 
 After collecting data using UAV in the field, it's time to process it by creating a 3D model and analyzing it. In this exercise, you'll learn how to:
 - Structure the field data in your computer.
@@ -142,9 +139,10 @@ You can find a description of the tools used for interpreting and annotating dig
 Sketchfab is an online platform that allows uploading 3D models. While it doesn't keep the original quality of the model due to web limitations, it is an excellent way to share and visualize your models online.
 ```
 ````
-Finalise the outcrop metadata form and discuss it with the course responsible. Remember to include the SketchFab ID, which can only be obtained after the submission has been quality controlled and the model has been uploaded to [SketchFab](https://unisvalbard.github.io/Geo-SfM/content/lessons/l6/sketchfab.html).
+Finalise the outcrop **Metadata form** and discuss it with the course responsible. Remember to include the SketchFab ID, which can only be obtained after the submission has been quality controlled and the model has been uploaded to [SketchFab](https://unisvalbard.github.io/Geo-SfM/content/lessons/l6/sketchfab.html).
 
-```Metadata form
+### Metadata form
+```
 acq_camera_lens: # mm
 acq_camera_model: 
 acq_date:  # STRING DD.MM.YYYY
@@ -167,7 +165,7 @@ location_land:   # PICK Albert I Land / Andrée Land / Bünsow Land / Dickson La
 location_locality: 
 location_northing:  # northing used for hand sample models
 #
-proc_alignment_accuracy: Highest
+proc_alignment_accuracy:
 proc_camera_stations: 
 proc_camera_total_error: 
 proc_coverage_area: # kmÂ²
