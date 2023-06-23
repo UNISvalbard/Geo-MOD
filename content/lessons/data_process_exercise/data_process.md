@@ -168,7 +168,7 @@ location_land:   # PICK Albert I Land / Andrée Land / Bünsow Land / Dickson La
 location_locality: 
 location_northing:  # northing used for hand sample models
 #
-proc_alignment_accuracy: Highest
+proc_alignment_accuracy:
 proc_camera_stations: 
 proc_camera_total_error: 
 proc_coverage_area: # kmÂ²
