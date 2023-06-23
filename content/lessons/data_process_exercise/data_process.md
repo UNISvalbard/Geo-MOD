@@ -139,3 +139,18 @@ Follow the tutorial on _Importing a digital terrain model_ a the [AG-222 Compend
 
 Keep in mind that both  ArcGIS and QGIS allow you import the DEM and associated data fields. However, and while the elevation data is preserved, the visualizaiton will be in 2D.
 ```
+
+# Deliverable
+- Brief animation of your model recorded in Agisoft Metashape
+- Export Model/Mesh with textures; orthomosaic
+- Export processing report
+- Upload the model to Sketchfab from Agisoft Metashape using the API key
+- Annotate and export features/shapes
+- Import orthomosaic and shapes in GIS and embed the Sketchfab model
+- Fill out metadata form
+
+```{admonition} Don't use PowerPoint
+:class: warning
+
+The use of Power Point and screenshots for presenting your data is not allowed.
+```
