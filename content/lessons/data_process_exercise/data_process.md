@@ -152,5 +152,5 @@ Keep in mind that both  ArcGIS and QGIS allow you import the DEM and associated 
 ```{admonition} Don't use PowerPoint
 :class: warning
 
-The use of Power Point and screenshots for presenting your data is not allowed.
+The use of PowerPoint and screenshots for presenting your data is not allowed.
 ```
