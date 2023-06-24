@@ -76,6 +76,11 @@ parts:
   - file: content/survey.md
     title: Compendium Questionnaire
 
+- caption: ALUMNI
+  chapters:
+  - file: content/lessons/alumni/202306.md
+    title: Group 1 - June 2023
+
 - caption: External Links
   chapters:
   - url: https://unisvalbard.github.io/ebooks/
