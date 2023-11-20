@@ -1,0 +1,753 @@
+
+
+<!DOCTYPE html>
+
+
+<html >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Welcome to Geo-MOD &#8212; Geo-MOD Course</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'landing-page';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Introduction to Geo-MOD" href="content/lessons/intro/intro.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="None"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+
+  <div class="bd-header-announcement container-fluid bd-header-announcement">
+    <div class="bd-header-announcement__content">Found this tutorial helpful? Please participate in the survey (<a href="https://unisvalbard.github.io/Geo-MOD/content/survey.html">click here</a>) & Star me!        <iframe src="https://ghbtns.com/github-btn.html?user=UNISvalbard&repo=Geo-MOD&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe></div>
+  </div>
+
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="#">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/geo_mod-01.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/geo_mod-01.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1 current active">
+                <a class="reference internal" href="#">
+                    Welcome to Geo-MOD
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">INTRODUCTION</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="content/lessons/intro/intro.html">Introduction to Geo-MOD</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/definitions.html">Some useful definitions</a></li>
+<li class="toctree-l2"><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/uav_types/uav_types.html">Types of UAVs</a></li>
+</ul>
+</li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 1</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference external" href="https://unisvalbard.github.io/Geo-SfM/content/lessons/l1/sfm_photogrammetry.html">Geo-SfM module - SfM Photogrammetry</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://unisvalbard.github.io/Geo-SfM/content/lessons/l1/exercise1.html">Exercise 1 - SfM Photogrammetry 101</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 2</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference external" href="https://unisvalbard.github.io/Geo-SfM/content/lessons/l2/overview.html">Geo-SfM module - Geo-referencing</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://unisvalbard.github.io/Geo-SfM/content/lessons/l2/exercise2.html">Exercise 2 - SfM using Ground Control Points (GCPs)</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 3</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/regulations/regulations.html">UAV flight regulations</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="content/lessons/license/geomod_requirements.html">Geo-MOD UAV certificates requirements</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/regulations/operator_registration.html">Register as a UAS operator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/lessons/license/training.html">Training courses</a></li>
+</ul>
+</li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 4</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/check_list/preflight_checklist.html">Pre-flight check list</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/howto_fly/howto_fly.html">How to fly an UAV (manual and auto)</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/flight_simulator/flight_simulator.html">Practice with UAV flight simulator</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 5</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/data_acquisition/data_acquisition.html">Survey plan and Data acquisition</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/environment/environment.html">Environment awareness</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://unisvalbard.github.io/gnss-compendium/instrument_setup.html">UAV data acquisition with GNSS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/lessons/data_acquisition_exercise/data_acquisition.html">Exercise 3 - Plan your data acquisition campaign</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 6</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="content/lessons/data_process_exercise/data_process.html">Exercise 4 - Process and analyze your field data</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference external" href="https://unisvalbard.github.io/Geo-SfM/content/lessons/l5/geomodel_tutorial.html">Geomodeling tutorial</a></li>
+<li class="toctree-l2"><a class="reference external" href="https://unisvalbard.github.io/Geo-SfM/content/lessons/l6/sketchfab.html">Upload to Sketchfab</a></li>
+<li class="toctree-l2"><a class="reference external" href="https://unisvalbard.github.io/AG222/content/lessons/gis/gis.html">GIS 101</a></li>
+</ul>
+</li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">EVALUATION &amp; QUESTIONNAIRE</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="content/survey.html">Compendium Questionnaire</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">ALUMNI</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="content/lessons/alumni/202306.html">Group 1 - June 2023</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">External Links</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference external" href="https://unisvalbard.github.io/ebooks/">UNIS Compendium Portal</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/UNISvalbard/Geo-MOD" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/UNISvalbard/Geo-MOD/edit/main/landing-page.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/UNISvalbard/Geo-MOD/issues/new?title=Issue%20on%20page%20%2Flanding-page.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/landing-page.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Welcome to Geo-MOD</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#teaching-photogrammetry-based-data-acquisition">Teaching photogrammetry-based data acquisition</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about-geo-mod">About Geo-MOD</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#schedule">Schedule</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#course-content-and-learning-goals">Course content and learning goals</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-status">Project status</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contribute-or-improve-the-resource">Contribute or improve the resource</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#funding-and-support">Funding and Support</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgements-and-licensing">Acknowledgements and licensing</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section id="welcome-to-geo-mod">
+<h1>Welcome to Geo-MOD<a class="headerlink" href="#welcome-to-geo-mod" title="Permalink to this headline">#</a></h1>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a> <a class="reference external" href="https://github.com/UNISvalbard/Geo-MOD/actions/workflows/deploy-book.yml"><img alt="Latest Build" src="https://github.com/UNISvalbard/Geo-MOD/actions/workflows/deploy-book.yml/badge.svg" /></a></p>
+<section id="teaching-photogrammetry-based-data-acquisition">
+<h2>Teaching photogrammetry-based data acquisition<a class="headerlink" href="#teaching-photogrammetry-based-data-acquisition" title="Permalink to this headline">#</a></h2>
+<aside class="margin sidebar">
+<p class="sidebar-title">Part of the Geo-MOD series</p>
+<p>This compendium forms part of the UNIS <a class="reference external" href="https://unisvalbard.github.io/Geo-MOD/landing-page.html">Geo-MOD</a> series:</p>
+<blockquote>
+<div><p><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/landing-page.html">Geo-UAV: Learn to fly geoscientific missions</a></p>
+</div></blockquote>
+<blockquote>
+<div><p><a class="reference external" href="https://unisvalbard.github.io/Geo-SfM/landing-page.html">Geo-SfM: Learn to apply structure-from-motion photogrammetry</a></p>
+</div></blockquote>
+</aside>
+<p>The first iteration of the Geo-MOD course has run at <a class="reference external" href="https://www.unis.no/">The University Centre in Svalbard</a> between the <strong>19-24 of June 2023</strong>.</p>
+<p>This course is designed for students, as well as scientific and technical staff who are interested in learning or enhancing their skills in using UAV-based geoscientific data acquisition for photogrammetry in the field to produce scientifically deliverable and publishable 3D and DEM models.</p>
+<p>UAV photogrammetry consists of three main stages:</p>
+<ol class="arabic simple">
+<li><p>Data acquisition</p></li>
+<li><p>Data processing</p></li>
+<li><p>Data analysis</p></li>
+</ol>
+<p>Geo-MOD is complemented by different modules to cover each stage of the UAV photogrammetry workflow.
+<a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/landing-page.html">Geo-UAV</a>, is a tutorial for UAV-based data acquisition in the field, <a class="reference external" href="https://unisvalbard.github.io/Geo-SfM/landing-page.html">Geo-SfM</a> is a tutorial for acquisition, processing and analysis of structure-from-motion photogrammetry data in the geosciences and <a class="reference external" href="https://unisvalbard.github.io/AG222/landing-page.html">AG-222 Compendium</a> is a tutorial that provides different resources for analyzing the data and publish your research.</p>
+</section>
+<section id="about-geo-mod">
+<h2>About Geo-MOD<a class="headerlink" href="#about-geo-mod" title="Permalink to this headline">#</a></h2>
+<p><a class="reference external" href="https://unisvalbard.github.io/Geo-MOD/landing-page.html">Geo-MOD</a> is an open-source reference work for the UAV-based data acquisition in the field.</p>
+<p>The reference work is primarily developed as a class-room aid. Best practices and tutorials are based on the experience acquired as part of the <a class="reference external" href="https://svalbox.no">Svalbox project</a>, which aims to digitize as many outcrops as possible in Svalbard (Norwegian Arctic).</p>
+<iframe src="./reveal/unis_learning_forum_2023/index.html" title="UNIS Learning forum 2023 slides" width=100% height=450em></iframe>
+</section>
+<section id="schedule">
+<h2>Schedule<a class="headerlink" href="#schedule" title="Permalink to this headline">#</a></h2>
+<table class="table">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>DAY</p></th>
+<th class="head"><p>DATE</p></th>
+<th class="head"><p>TIME</p></th>
+<th class="head"><p>CONTENT</p></th>
+<th class="head"><p>ROOM</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Day 1</p></td>
+<td><p>19.06.2023</p></td>
+<td><p>09.00 - 16.00</p></td>
+<td><p>Intro to Photogrammetry</p></td>
+<td><p><a class="reference external" href="https://unisvalbard.github.io/AG222/content/lessons/about/seismic_lab.html">Signehamna</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Day 2</p></td>
+<td><p>20.06.2023</p></td>
+<td><p>09.00 - 16.00</p></td>
+<td><p>Data acquisition and processing // UAV Theory and regulations</p></td>
+<td><p><a class="reference external" href="https://unisvalbard.github.io/AG222/content/lessons/about/seismic_lab.html">Signehamna</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Day 3</p></td>
+<td><p>21.06.2023</p></td>
+<td><p>09.00 - 16.00</p></td>
+<td><p>Theory field data acquisition // Field data acquisition</p></td>
+<td><p><a class="reference external" href="https://unisvalbard.github.io/AG222/content/lessons/about/seismic_lab.html">Signehamna</a> // <em>Field</em></p></td>
+</tr>
+<tr class="row-odd"><td><p>Day 4</p></td>
+<td><p>22.06.2023</p></td>
+<td><p>09.00 - 16.00</p></td>
+<td><p>Field data acquisition</p></td>
+<td><p><em>Field</em></p></td>
+</tr>
+<tr class="row-even"><td><p>Day 5</p></td>
+<td><p>23.06.2023</p></td>
+<td><p>09.00 - 16.00</p></td>
+<td><p>Data process, analysis and publishing</p></td>
+<td><p><a class="reference external" href="https://unisvalbard.github.io/AG222/content/lessons/about/seismic_lab.html">Signehamna</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Day 6</p></td>
+<td><p>24.06.2023</p></td>
+<td><p>09.00 - 12.00</p></td>
+<td><p>Questionnaire, certification, Q&amp;A</p></td>
+<td><p><a class="reference external" href="https://unisvalbard.github.io/AG222/content/lessons/about/seismic_lab.html">Signehamna</a></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="course-content-and-learning-goals">
+<h2>Course content and learning goals<a class="headerlink" href="#course-content-and-learning-goals" title="Permalink to this headline">#</a></h2>
+<p>Geo-MOD course is split in several modules, consisting of interactive lectures walkthroughs, and exercises.</p>
+<ul class="simple">
+<li><p>Introduction to Structure-from-Motion Photogrammetry</p></li>
+<li><p>Geo-referencing</p></li>
+<li><p>UAV flight regulations</p></li>
+<li><p>Design your own flight plan</p></li>
+<li><p>How to fly an UAV</p></li>
+<li><p>UAV data acquisition</p></li>
+</ul>
+<div class="admonition-q-a admonition">
+<p class="admonition-title">Q&amp;A</p>
+<p>Course participants are encouraged to use <a class="reference external" href="https://unisvalbard.github.io/Geo-MOD/issues.html">Issues</a> on GitHub to raise questions regarding content issues so that everyone else with a similar doubt can look into it.</p>
+<p>Alternatively, feel free to make notes and annotations through the included <a class="reference external" href="https://hypothes.is">Hypothes.is</a> integration.</p>
+</div>
+</section>
+<section id="project-status">
+<h2>Project status<a class="headerlink" href="#project-status" title="Permalink to this headline">#</a></h2>
+<p>Geo-MOD is still in development, with additional tutorials and how-tos added continously to keep the work up-to-date with recent developments and evolving best practices.</p>
+</section>
+<section id="contribute-or-improve-the-resource">
+<h2>Contribute or improve the resource<a class="headerlink" href="#contribute-or-improve-the-resource" title="Permalink to this headline">#</a></h2>
+<p>Notice some unclear sections? A typo in the text? Want to add a cool tutorial or how-to on processing? Get in touch and let’s make thing happen!</p>
+<figure class="align-default" id="github-tut">
+<img alt="_images/github_tut.gif" src="_images/github_tut.gif" />
+<figcaption>
+<p><span class="caption-number">Fig. 1 </span><span class="caption-text">This page uses <a class="reference external" href="https://youtu.be/w3jLJU7DT5E">Github</a> as a backbone.
+All it takes is a <a class="reference external" href="https://github.com/join">Github account</a>, which even comes with student benefits.
+Once connected, feel free to open an issue as per the above - whether suggesting improvements or highlighting bugs.</span><a class="headerlink" href="#github-tut" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="funding-and-support">
+<h2>Funding and Support<a class="headerlink" href="#funding-and-support" title="Permalink to this headline">#</a></h2>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<a class="reference external image-reference" href="https://iearth.no"><img alt="https://www.mn.uio.no/geo/english/research/networks/iearth/bilder/earthlogo-1000px.png" class="m-auto" src="https://www.mn.uio.no/geo/english/research/networks/iearth/bilder/earthlogo-1000px.png" style="width: 200px;" /></a>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
+<p>The developement of Geo-MOD is funded by <a class="reference external" href="https://www.iearth.no/">iEarth</a>, a Norwegian Center of Excellence for Integrated Earth Science Education.</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<a class="reference external image-reference" href="https://svalbox.no"><img alt="https://svalbox.no/_static/logo.svg" class="m-auto" src="https://svalbox.no/_static/logo.svg" width="50px" /></a>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
+<p>The Geo-MOD course implements technical knowhow acquired through The <a class="reference external" href="https://svalbox.no">Svalbox</a> Project.</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<a class="reference external image-reference" href="https://unis.no"><img alt="_images/UNIS_logo.gif" class="m-auto" src="_images/UNIS_logo.gif" style="width: 200px;" /></a>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
+<p><a class="reference external" href="https://www.unis.no/">UNIS</a> supports Geo-MOD by providing necessary technical and logistical assistance.</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<a class="reference external image-reference" href="https://nfip.no"><img alt="_images/nfip-logo.png" class="m-auto" src="_images/nfip-logo.png" style="width: 200px;" /></a>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
+<p><a class="reference external" href="https://nfip.no/">NFiP</a> financially supports Geo-MOD development and provided travel stipends for course participants.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="acknowledgements-and-licensing">
+<h2>Acknowledgements and licensing<a class="headerlink" href="#acknowledgements-and-licensing" title="Permalink to this headline">#</a></h2>
+<p>Geo-MOD is implemented through Jupyter Book and the Executable Book Project.
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
+</section>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="right-next"
+       href="content/lessons/intro/intro.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Introduction to Geo-MOD</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#teaching-photogrammetry-based-data-acquisition">Teaching photogrammetry-based data acquisition</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about-geo-mod">About Geo-MOD</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#schedule">Schedule</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#course-content-and-learning-goals">Course content and learning goals</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-status">Project status</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contribute-or-improve-the-resource">Contribute or improve the resource</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#funding-and-support">Funding and Support</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgements-and-licensing">Acknowledgements and licensing</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Peter Betlem, Nil Rodes, Sara M. Cohen, GeoMonkey AS
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023 (CC-BY-NC except where otherwise stated).
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
