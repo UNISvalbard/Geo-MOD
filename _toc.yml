@@ -34,6 +34,7 @@ parts:
     sections:
     - url: https://unisvalbard.github.io/Geo-UAV/content/lessons/regulations/operator_registration.html
       title: Register as a UAS operator
+    - file: content/lessons/license/training.md
 
 - caption: SESSION 4
   chapters:
@@ -60,8 +61,13 @@ parts:
   chapters:
   - file: content/lessons/data_process_exercise/data_process.md
     title: Exercise 4 - Process and analyze your field data
-  - url: https://unisvalbard.github.io/AG222/content/lessons/gis/gis.html
-    title: GIS 101
+    sections:
+    - url: https://unisvalbard.github.io/Geo-SfM/content/lessons/l5/geomodel_tutorial.html
+      title: Geomodeling tutorial
+    - url: https://unisvalbard.github.io/Geo-SfM/content/lessons/l6/sketchfab.html
+      title: Upload to Sketchfab
+    - url: https://unisvalbard.github.io/AG222/content/lessons/gis/gis.html
+      title: GIS 101    
 
 - caption: EVALUATION & QUESTIONNAIRE
   chapters:
@@ -70,9 +76,14 @@ parts:
   - file: content/survey.md
     title: Compendium Questionnaire
 
+- caption: ALUMNI
+  chapters:
+  - file: content/lessons/alumni/202306.md
+    title: Group 1 - June 2023
+
 - caption: External Links
   chapters:
-  - url: https://unisvalbard.github.io/exbooks/
+  - url: https://unisvalbard.github.io/ebooks/
     title: UNIS Compendium Portal
 
 
