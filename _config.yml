@@ -1,6 +1,6 @@
 title: "Geo-MOD Course"
 logo: ./content/assets/geo_mod-01.png
-author: Peter Betlem, Nil Rodes, Sara M. Cohen
+author: Peter Betlem, Nil Rodes, Sara M. Cohen, GeoMonkey AS
 copyright: "2023 (CC-BY-NC except where otherwise stated)"
 
 repository:
@@ -32,5 +32,7 @@ sphinx:
   config:
     #bibtex_reference_style: author_year
     bibtex_default_style: plain
+    html_extra_path: ["./slides/"]
+
 
 only_build_toc_files: true
