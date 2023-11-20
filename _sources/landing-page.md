@@ -14,7 +14,7 @@ This compendium forms part of the UNIS [Geo-MOD](https://unisvalbard.github.io/G
 
 ````
 
-The Geo-MOD course will run at [The University Centre in Svalbard](https://www.unis.no/) between the **19-24 of June 2023**.
+The first iteration of the Geo-MOD course has run at [The University Centre in Svalbard](https://www.unis.no/) between the **19-24 of June 2023**.
 
 This course is designed for students, as well as scientific and technical staff who are interested in learning or enhancing their skills in using UAV-based geoscientific data acquisition for photogrammetry in the field to produce scientifically deliverable and publishable 3D and DEM models.
 
@@ -23,7 +23,15 @@ UAV photogrammetry consists of three main stages:
 2. Data processing
 3. Data analysis
 
-Geo-MOD is complemented by different modules to cover each stage of the UAV photogrammetry workflow. [Geo-UAV](https://unisvalbard.github.io/Geo-UAV/landing-page.html), is a tutorial for UAV-based data acquisition in the field, [Geo-SfM](https://unisvalbard.github.io/Geo-SfM/landing-page.html) is a tutorial for acquisition, processing and analysis of structure-from-motion photogrammetry data in the geosciences and [AG-222 Compendium](https://unisvalbard.github.io/AG222/landing-page.html) is a tutorial that provides different resources for analyzing the data and publish your research.
+Geo-MOD is complemented by different modules to cover each stage of the UAV photogrammetry workflow. 
+[Geo-UAV](https://unisvalbard.github.io/Geo-UAV/landing-page.html), is a tutorial for UAV-based data acquisition in the field, [Geo-SfM](https://unisvalbard.github.io/Geo-SfM/landing-page.html) is a tutorial for acquisition, processing and analysis of structure-from-motion photogrammetry data in the geosciences and [AG-222 Compendium](https://unisvalbard.github.io/AG222/landing-page.html) is a tutorial that provides different resources for analyzing the data and publish your research.
+
+## About Geo-MOD
+[Geo-MOD](https://unisvalbard.github.io/Geo-MOD/landing-page.html) is an open-source reference work for the UAV-based data acquisition in the field.
+
+The reference work is primarily developed as a class-room aid. Best practices and tutorials are based on the experience acquired as part of the [Svalbox project](https://svalbox.no), which aims to digitize as many outcrops as possible in Svalbard (Norwegian Arctic).
+
+<iframe src="./reveal/unis_learning_forum_2023/index.html" title="UNIS Learning forum 2023 slides" width=100% height=450em></iframe>
 
 ## Schedule
 
@@ -65,11 +73,6 @@ Geo-MOD is complemented by different modules to cover each stage of the UAV phot
   - Questionnaire, certification, Q&A
   - [Signehamna](https://unisvalbard.github.io/AG222/content/lessons/about/seismic_lab.html)
 ```
-
-## About Geo-MOD
-[Geo-MOD](https://unisvalbard.github.io/Geo-MOD/landing-page.html) is an open-source reference work for the UAV-based data acquisition in the field.
-
-The reference work is primarily developed as a class-room aid. Best practices and tutorials are based on the experience acquired as part of the [Svalbox project](https://svalbox.no), which aims to digitalize as many outcrops as possible in Svalbard (Norwegian Arctic).
 
 ## Course content and learning goals
 Geo-MOD course is split in several modules, consisting of interactive lectures walkthroughs, and exercises.
