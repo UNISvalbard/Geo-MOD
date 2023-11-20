@@ -3,11 +3,11 @@
 <!DOCTYPE html>
 
 
-<html >
+<html lang="en" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>Exercise 4 - Process and analyze your data &#8212; Geo-MOD Course</title>
   
@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../../../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../../../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../../../_static/styles/theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../../../_static/styles/bootstrap.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
 
   
-  <link href="../../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
@@ -38,12 +38,14 @@
     <link rel="stylesheet" type="text/css" href="../../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
-<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6" />
+<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6" />
+  <script src="../../../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=365ca57ee442770a23c6"></script>
 
     <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
     <script src="../../../_static/jquery.js"></script>
     <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../../_static/doctools.js"></script>
     <script src="../../../_static/clipboard.min.js"></script>
     <script src="../../../_static/copybutton.js"></script>
@@ -67,7 +69,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="next" title="Compendium Questionnaire" href="../../survey.html" />
     <link rel="prev" title="Exercise 3 - Plan your UAV-based data acquisition survey" href="../data_acquisition_exercise/data_acquisition.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="None"/>
+  <meta name="docsearch:language" content="en"/>
   </head>
   
   
@@ -76,6 +78,15 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
   
   <input type="checkbox"
           class="sidebar-toggle"
@@ -142,13 +153,14 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   
+  
     
     
       
     
     
-    <img src="../../../_static/geo_mod-01.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../../../_static/geo_mod-01.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../../../_static/geo_mod-01.png" class="logo__image only-light" alt="Geo-MOD Course - Home"/>
+    <script>document.write(`<img src="../../../_static/geo_mod-01.png" class="logo__image only-dark" alt="Geo-MOD Course - Home"/>`);</script>
   
   
 </a></div>
@@ -394,10 +406,10 @@ const thebe_selector_output = ".output, .cell_output"
 
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
   </button>
 `);
 </script>
@@ -405,7 +417,7 @@ document.write(`
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
@@ -456,7 +468,7 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section id="exercise-4-process-and-analyze-your-data">
-<h1>Exercise 4 - Process and analyze your data<a class="headerlink" href="#exercise-4-process-and-analyze-your-data" title="Permalink to this headline">#</a></h1>
+<h1>Exercise 4 - Process and analyze your data<a class="headerlink" href="#exercise-4-process-and-analyze-your-data" title="Permalink to this heading">#</a></h1>
 <div class="admonition-deliverable-deadline admonition">
 <p class="admonition-title">Deliverable &amp; Deadline</p>
 <p>Please complete this exercise <strong>by the end of SESSION 5 by Friday 23rd of June, 2023</strong>.</p>
@@ -488,7 +500,7 @@ document.write(`
 <p>Please note that we only provide feedback and support for the <strong>participants of the Geo-MOD course</strong>.</p>
 </div>
 <section id="data-and-project-structure">
-<h2>1. Data and project structure<a class="headerlink" href="#data-and-project-structure" title="Permalink to this headline">#</a></h2>
+<h2>1. Data and project structure<a class="headerlink" href="#data-and-project-structure" title="Permalink to this heading">#</a></h2>
 <p>After coming back from the field, the first step is to download and organize the images collected during the acquisition campaign.</p>
 <div class="tip admonition">
 <p class="admonition-title">Do it asap!</p>
@@ -555,7 +567,7 @@ Then proceed to <em>Network</em> and check the <em>Enable network processing</em
 </aside>
 </section>
 <section id="process-your-digital-outcrop-model-dom">
-<h2>2. Process your digital outcrop model (DOM)<a class="headerlink" href="#process-your-digital-outcrop-model-dom" title="Permalink to this headline">#</a></h2>
+<h2>2. Process your digital outcrop model (DOM)<a class="headerlink" href="#process-your-digital-outcrop-model-dom" title="Permalink to this heading">#</a></h2>
 <p>For processing your digital outcrop model, we suggest utilizing the structure-from-motion <a class="reference external" href="https://unisvalbard.github.io/Geo-SfM/content/lessons/l1/tutorial#metashape-tutorial">Metashape tutorial</a> available on the Geo-SfM tutorial pages.</p>
 <div class="note admonition">
 <p class="admonition-title">Use the processing network!</p>
@@ -564,10 +576,10 @@ Else processing may take forever!</p>
 </div>
 </section>
 <section id="measure-your-3d-model">
-<h2>3. Measure your 3D model<a class="headerlink" href="#measure-your-3d-model" title="Permalink to this headline">#</a></h2>
+<h2>3. Measure your 3D model<a class="headerlink" href="#measure-your-3d-model" title="Permalink to this heading">#</a></h2>
 <p>Since your digital model is scaled 1:1 with the actual outcrop, we can utilize it for measuring purposes.</p>
 <section id="calculate-bulk-density">
-<h3>Calculate bulk density<a class="headerlink" href="#calculate-bulk-density" title="Permalink to this headline">#</a></h3>
+<h3>Calculate bulk density<a class="headerlink" href="#calculate-bulk-density" title="Permalink to this heading">#</a></h3>
 <p>Metashape provides a built-in feature to determine a model’s volume (<em>Tools/Mesh/Measure Area and Volume…</em>).</p>
 <div class="note admonition">
 <p class="admonition-title">Metashape volume measurement</p>
@@ -577,11 +589,11 @@ Else processing may take forever!</p>
 </section>
 </section>
 <section id="annotate-and-interpret-the-3d-model">
-<h2>4. Annotate and interpret the 3D model<a class="headerlink" href="#annotate-and-interpret-the-3d-model" title="Permalink to this headline">#</a></h2>
+<h2>4. Annotate and interpret the 3D model<a class="headerlink" href="#annotate-and-interpret-the-3d-model" title="Permalink to this heading">#</a></h2>
 <p>You can find a description of the tools used for interpreting and annotating digital outcrop models in the <a class="reference external" href="https://unisvalbard.github.io/Geo-SfM/content/lessons/l5/geomodel_tutorial.html">geomodelling tutorial</a>.</p>
 </section>
 <section id="export-and-publish-your-model">
-<h2>5. Export and publish your model<a class="headerlink" href="#export-and-publish-your-model" title="Permalink to this headline">#</a></h2>
+<h2>5. Export and publish your model<a class="headerlink" href="#export-and-publish-your-model" title="Permalink to this heading">#</a></h2>
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <div class="note admonition">
@@ -591,7 +603,7 @@ Else processing may take forever!</p>
 </aside>
 <p>Finalise the outcrop <strong>Metadata form</strong> and discuss it with the course responsible. Remember to include the SketchFab ID, which can only be obtained after the submission has been quality controlled and the model has been uploaded to <a class="reference external" href="https://unisvalbard.github.io/Geo-SfM/content/lessons/l6/sketchfab.html">SketchFab</a>.</p>
 <section id="metadata-form">
-<h3>Metadata form<a class="headerlink" href="#metadata-form" title="Permalink to this headline">#</a></h3>
+<h3>Metadata form<a class="headerlink" href="#metadata-form" title="Permalink to this heading">#</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">acq_camera_lens</span><span class="p">:</span> <span class="c1"># mm</span>
 <span class="n">acq_camera_model</span><span class="p">:</span> 
 <span class="n">acq_date</span><span class="p">:</span>  <span class="c1"># STRING DD.MM.YYYY</span>
@@ -642,7 +654,7 @@ Else processing may take forever!</p>
 </section>
 </section>
 <section id="import-the-dem-to-a-gis-project">
-<h2>6. Import the DEM to a GIS project<a class="headerlink" href="#import-the-dem-to-a-gis-project" title="Permalink to this headline">#</a></h2>
+<h2>6. Import the DEM to a GIS project<a class="headerlink" href="#import-the-dem-to-a-gis-project" title="Permalink to this heading">#</a></h2>
 <p>You can import the DEM you created to a GIS project.</p>
 <p>Follow the tutorial on <em>Importing a digital terrain model</em> a the <a class="reference external" href="https://unisvalbard.github.io/AG222/content/lessons/gis/gis.html">AG-222 Compendium - GIS 101</a>.</p>
 <div class="note admonition">
@@ -667,7 +679,7 @@ Else processing may take forever!</p>
         },
         kernelOptions: {
             name: "python3",
-            path: "./content\lessons\data_process_exercise"
+            path: "./content/lessons/data_process_exercise"
         },
         predefinedOutput: true
     }
@@ -679,11 +691,10 @@ Else processing may take forever!</p>
 
               
               
-                <footer class="bd-footer-article">
-                  
-<div class="footer-article-items footer-article__inner">
-  
-    <div class="footer-article-item"><!-- Previous / next buttons -->
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
        href="../data_acquisition_exercise/data_acquisition.html"
@@ -703,10 +714,7 @@ Else processing may take forever!</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
-</div></div>
-  
 </div>
-
                 </footer>
               
             </div>
@@ -780,8 +788,8 @@ By Peter Betlem, Nil Rodes, Sara M. Cohen, GeoMonkey AS
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../../../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
-<script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+  <script src="../../../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6"></script>
+<script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6"></script>
 
   <footer class="bd-footer">
   </footer>

@@ -3,11 +3,11 @@
 <!DOCTYPE html>
 
 
-<html >
+<html lang="en" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>Introduction to Geo-MOD &#8212; Geo-MOD Course</title>
   
@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../../../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../../../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../../../_static/styles/theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../../../_static/styles/bootstrap.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
 
   
-  <link href="../../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
@@ -38,12 +38,14 @@
     <link rel="stylesheet" type="text/css" href="../../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
-<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6" />
+<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6" />
+  <script src="../../../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=365ca57ee442770a23c6"></script>
 
     <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
     <script src="../../../_static/jquery.js"></script>
     <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../../_static/doctools.js"></script>
     <script src="../../../_static/clipboard.min.js"></script>
     <script src="../../../_static/copybutton.js"></script>
@@ -65,9 +67,9 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="Geo-MOD UAV certificates requirements" href="../license/geomod_requirements.html" />
-    <link rel="prev" title="Welcome to Geo-MOD: Teaching photogrammetry-based data acquisition" href="../../../landing-page.html" />
+    <link rel="prev" title="Welcome to Geo-MOD" href="../../../landing-page.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="docsearch:language" content="None"/>
+  <meta name="docsearch:language" content="en"/>
   </head>
   
   
@@ -76,6 +78,15 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
   
   <input type="checkbox"
           class="sidebar-toggle"
@@ -142,13 +153,14 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   
+  
     
     
       
     
     
-    <img src="../../../_static/geo_mod-01.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../../../_static/geo_mod-01.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../../../_static/geo_mod-01.png" class="logo__image only-light" alt="Geo-MOD Course - Home"/>
+    <script>document.write(`<img src="../../../_static/geo_mod-01.png" class="logo__image only-dark" alt="Geo-MOD Course - Home"/>`);</script>
   
   
 </a></div>
@@ -158,7 +170,7 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../../../landing-page.html">
-                    Welcome to Geo-MOD: Teaching photogrammetry-based data acquisition
+                    Welcome to Geo-MOD
                 </a>
             </li>
         </ul>
@@ -185,6 +197,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/regulations/regulations.html">UAV flight regulations</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../license/geomod_requirements.html">Geo-MOD UAV certificates requirements</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/content/lessons/regulations/operator_registration.html">Register as a UAS operator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../license/training.html">Training courses</a></li>
 </ul>
 </li>
 </ul>
@@ -203,16 +216,24 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">SESSION 6</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../data_process_exercise/data_process.html">Exercise 4 - Process and analyze your field data</a></li>
-<li class="toctree-l1"><a class="reference external" href="https://unisvalbard.github.io/AG222/content/lessons/gis/gis.html">GIS 101</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../data_process_exercise/data_process.html">Exercise 4 - Process and analyze your field data</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference external" href="https://unisvalbard.github.io/Geo-SfM/content/lessons/l5/geomodel_tutorial.html">Geomodeling tutorial</a></li>
+<li class="toctree-l2"><a class="reference external" href="https://unisvalbard.github.io/Geo-SfM/content/lessons/l6/sketchfab.html">Upload to Sketchfab</a></li>
+<li class="toctree-l2"><a class="reference external" href="https://unisvalbard.github.io/AG222/content/lessons/gis/gis.html">GIS 101</a></li>
+</ul>
+</li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">EVALUATION &amp; QUESTIONNAIRE</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../survey.html">Compendium Questionnaire</a></li>
 </ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">ALUMNI</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../alumni/202306.html">Group 1 - June 2023</a></li>
+</ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">External Links</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference external" href="https://unisvalbard.github.io/exbooks/">UNIS Compendium Portal</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://unisvalbard.github.io/ebooks/">UNIS Compendium Portal</a></li>
 </ul>
 
     </div>
@@ -385,10 +406,10 @@ const thebe_selector_output = ".output, .cell_output"
 
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
   </button>
 `);
 </script>
@@ -396,7 +417,7 @@ document.write(`
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
@@ -437,7 +458,7 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section id="introduction-to-geo-mod">
-<h1>Introduction to Geo-MOD<a class="headerlink" href="#introduction-to-geo-mod" title="Permalink to this headline">#</a></h1>
+<h1>Introduction to Geo-MOD<a class="headerlink" href="#introduction-to-geo-mod" title="Permalink to this heading">#</a></h1>
 <p>Welcome to the Geo-MOD Course!</p>
 <p>The Geo-MOD Course is a module to teach students how to collect and process UAV-based field data for geoscientific use using advanced techniques. The course is designed to be interactive and openly accessible to everyone.</p>
 <p>Throughout the course, students will learn how to plan, execute, and process UAV-based acquisition campaigns using structure-from-motion techniques to create orthomosaics, 3D models and digital elevation models (DEM). The course is divided into six sessions that include a variety of engaging components, such as videos, animations, and in-person training.</p>
@@ -447,7 +468,7 @@ document.write(`
 <p>The course <em>Certificate of completion</em> will only be available for the students taking the course in person at The University Centre in Svalbard.</p>
 </div>
 <section id="practical-information">
-<h2>Practical information<a class="headerlink" href="#practical-information" title="Permalink to this headline">#</a></h2>
+<h2>Practical information<a class="headerlink" href="#practical-information" title="Permalink to this heading">#</a></h2>
 <p>The Geo-MOD course will run at <a class="reference external" href="https://www.unis.no/">The University Centre in Svalbard</a> between the <strong>19-24 of June 2023</strong>.</p>
 <p>This course is designed for students, as well as scientific and technical staff who are interested in learning or enhancing their skills in using UAV-based geoscientific data acquisition for photogrammetry in the field to produce scientifically deliverable and publishable orthomosaics, 3D and DEM models.</p>
 <p>UAV photogrammetry consists of three main stages:</p>
@@ -459,7 +480,7 @@ document.write(`
 <p>Geo-MOD is complemented by different modules to cover each stage of the UAV photogrammetry workflow. <a class="reference external" href="https://unisvalbard.github.io/Geo-UAV/landing-page.html">Geo-UAV</a>, is a tool for UAV-based data acquisition in the field, <a class="reference external" href="https://unisvalbard.github.io/Geo-SfM/landing-page.html">Geo-SfM</a> is a tool for acquisition, processing and analysis of structure-from-motion photogrammetry data in the geosciences and <a class="reference external" href="https://unisvalbard.github.io/AG222/landing-page.html">AG-222 Compendium</a> is a tool that provides different resources for analyzing the data and publish your research.</p>
 </section>
 <section id="learning-outcomes">
-<h2>Learning outcomes<a class="headerlink" href="#learning-outcomes" title="Permalink to this headline">#</a></h2>
+<h2>Learning outcomes<a class="headerlink" href="#learning-outcomes" title="Permalink to this heading">#</a></h2>
 <p>Participants in the Geo-MOD course will learn how to perform a complete UAV photogrammetry workflow. This will cover data acquisition, data processing, and a brief overview of data analysis.</p>
 <ul class="simple">
 <li><p>Plan a UAV survey adjusting to your needs, and set achievable goals based on the resources available to you.</p></li>
@@ -488,7 +509,7 @@ document.write(`
         },
         kernelOptions: {
             name: "python3",
-            path: "./content\lessons\intro"
+            path: "./content/lessons/intro"
         },
         predefinedOutput: true
     }
@@ -500,11 +521,10 @@ document.write(`
 
               
               
-                <footer class="bd-footer-article">
-                  
-<div class="footer-article-items footer-article__inner">
-  
-    <div class="footer-article-item"><!-- Previous / next buttons -->
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
        href="../../../landing-page.html"
@@ -512,7 +532,7 @@ document.write(`
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Welcome to Geo-MOD: Teaching photogrammetry-based data acquisition</p>
+        <p class="prev-next-title">Welcome to Geo-MOD</p>
       </div>
     </a>
     <a class="right-next"
@@ -524,10 +544,7 @@ document.write(`
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
-</div></div>
-  
 </div>
-
                 </footer>
               
             </div>
@@ -591,8 +608,8 @@ By Peter Betlem, Nil Rodes, Sara M. Cohen, GeoMonkey AS
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../../../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
-<script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+  <script src="../../../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6"></script>
+<script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6"></script>
 
   <footer class="bd-footer">
   </footer>
