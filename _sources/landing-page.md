@@ -2,7 +2,7 @@
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a> [![Latest Build](https://github.com/UNISvalbard/Geo-MOD/actions/workflows/deploy-book.yml/badge.svg)](https://github.com/UNISvalbard/Geo-MOD/actions/workflows/deploy-book.yml)
 
-## Teaching photogrammetry-based data acquisition
+## Teaching geoscientific photogrammetry-based data acquisition and processing
 
 ````{margin} Part of the Geo-MOD series
  
