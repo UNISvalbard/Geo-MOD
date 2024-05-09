@@ -69,13 +69,6 @@ parts:
     - url: https://unisvalbard.github.io/AG222/content/lessons/gis/gis.html
       title: GIS 101    
 
-- caption: EVALUATION & QUESTIONNAIRE
-  chapters:
-  #- file: content/certification.md
-   # title: Geo-MOD Evaluation
-  - file: content/survey.md
-    title: Compendium Questionnaire
-
 - caption: ALUMNI
   chapters:
   - file: content/lessons/alumni/202306.md
