@@ -124,9 +124,9 @@ The developement of Geo-MOD is funded by [iEarth](https://www.iearth.no/), a Nor
 ````{grid-item}
 :columns: 4
 
-```{image} https://svalbox.no/_static/logo.svg
+```{image} https://svalbox.no/wp-content/uploads/2024/03/merged-website-logo-300x134.webp
 :class: m-auto
-:width: 50px
+:width: 200px
 :target: https://svalbox.no
 ```
 ````
